@@ -23,6 +23,7 @@ export default function Hero() {
                     <a
                         href="https://www.linkedin.com/in/lucas-su-758b4b10a/"
                         target="_blank"
+                        rel="noreferrer"
                         title="LinkedIn"
                         class = "hero-icon"
                         style={{ color: "white" }}
@@ -34,6 +35,7 @@ export default function Hero() {
                     <a
                         href="https://github.com/LucasSuL"
                         target="_blank"
+                        rel="noreferrer"
                         title="GitHub"
                         class = "hero-icon"
                         style={{ color: "white" }}
@@ -45,6 +47,7 @@ export default function Hero() {
                     <a
                         href="https://dev.to/lucassul"
                         target="_blank"
+                        rel="noreferrer"
                         title="Dev"
                         class = "hero-icon"
                         style={{ color: "white" }}
@@ -56,6 +59,7 @@ export default function Hero() {
                     <a
                         href="https://www.strava.com/athletes/84823175"
                         target="_blank"
+                        rel="noreferrer"
                         title="Strava"
                         class = "hero-icon"
                         style={{ color: "white" }}
