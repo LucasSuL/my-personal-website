@@ -40,7 +40,7 @@
     content: "";
     width: 3.5px;
     height: 100%;
-    background-image: linear-gradient(to bottom, #198754, rgb(128, 240, 0), #3abd5f);
+    background-image: linear-gradient(to bottom, #198754, rgb(128, 240, 0), #3abd5f,  #ffffff);
     transform: translateX(-1.5px);
 }
 
@@ -48,7 +48,7 @@
     width: 50%;
     height: auto;
     padding: 15px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     z-index: 99;
     position: relative;
 }
@@ -128,7 +128,8 @@
         width: 100%;
         float: none;
         clear: none;
-        margin-bottom: 80px;
+        margin-bottom: 30px;
+        padding:10px;
     }
 
     .checkpoint:nth-child(odd) {

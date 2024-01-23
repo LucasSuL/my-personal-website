@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from "./components/layout/Hero"
+import Home from "./components/layout/Home"
 import About from "./components/layout/About"
 import Skills from "./components/layout/Skills"
 import Experience from "./components/layout/Experience"
@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className="App">
-      <Hero />
+      <Home />
       <About />
       <Skills />
       <Experience />

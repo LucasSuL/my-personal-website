@@ -1,5 +1,5 @@
 import React from "react"
-import submitGoogleSheet from "../../assets/js/submitGoogleSheet"
+import submitGoogleSheet from "../../assets/js/useSubmitGoogleSheet"
 import "../../styles/footer.css"
 import resume from "../../downloads/Resume Jan 2024.pdf"
 import transcript from "../../downloads/Transcript Jan 2024.pdf"

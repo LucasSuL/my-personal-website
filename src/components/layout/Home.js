@@ -13,7 +13,7 @@ export default function Hero() {
                     <div class="row"></div>
                     <div class="row m-0 ">
                         <p>I'm a</p>
-                        <h1 class="fw-bold text-header fs-0">Graduate student who switched to <span class="text-gold"> computer science.</span></h1>
+                        <h1 class="fw-bold text-header text-tight fs-0">Graduate student who switched to <span class="text-gold"> computer science.</span></h1>
                         <h3>Currently at</h3>
                         <p class="mt-3">Adelaide, Australia</p>
                     </div>
