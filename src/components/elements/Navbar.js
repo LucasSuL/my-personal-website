@@ -1,10 +1,14 @@
-import React from "react"
-import "../../styles/navbar.css"
-// import "../../assets/js/modules/nav"
+import React from 'react';
+import "../../styles/navbar.css";
+import { useScrollHandler } from '../../assets/js/useScrollHandler';
+import { useNavItemIndicator  } from '../../assets/js/navItemIndicator';
 
 export default function Navbar() {
+    const isTransparent = useScrollHandler(); 
+    useNavItemIndicator ();
+
     return (
-        <nav class="navbar fixed-top navbar-expand-lg p-2" data-bs-theme="dark" > 
+        <nav class={`navbar ${isTransparent ? '' : 'bg-dark'} fixed-top navbar-expand-lg p-2`} data-bs-theme="dark" >
             <div class="container-fluid">
                 <a class="navbar-brand ps-3 pt-2" href="#">
                     <div class="h3 fw-bold text-header ">Lucas Su</div>

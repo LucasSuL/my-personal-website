@@ -1,4 +1,5 @@
 import React from "react"
+import submitGoogleSheet from "../../assets/js/submitGoogleSheet"
 import "../../styles/footer.css"
 import resume from "../../downloads/Resume Jan 2024.pdf"
 import transcript from "../../downloads/Transcript Jan 2024.pdf"
@@ -6,6 +7,7 @@ import portfolio from "../../downloads/Portfolio_Su Lijie 2022.2_compressed.pdf"
 import pianoComposition from "../../downloads/Starry Night.pdf"
 
 export default function Footer() {
+    submitGoogleSheet();
     return (
         <div class="container-fluid text-bg-dark mt-5 d-flex justify-content-center p-0">
             <div className="container " style={{ maxWidth: "1200px" }}>
@@ -63,11 +65,11 @@ export default function Footer() {
                                 <div class="modal-dialog">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you for reaching out!</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Hi!</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            I will respond to you as soon as possible.
+                                        Thank you for reaching out! I will respond to you as soon as possible.
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

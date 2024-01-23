@@ -1,16 +1,14 @@
-import React from "react"
-// import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
-import './styles/App.css'
-import "./assets/js/main"
-
+import React from 'react';
 import Hero from "./components/layout/Hero"
 import About from "./components/layout/About"
 import Skills from "./components/layout/Skills"
 import Experience from "./components/layout/Experience"
 import Articles from "./components/layout/Articles"
 import Footer from './components/layout/Footer'
+import './styles/App.css'
 
 function App() {
+  
   return (
     <div className="App">
       <Hero />
