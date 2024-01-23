@@ -1,10 +1,10 @@
 import React from 'react';
 import "../../styles/navbar.css";
-import { useScrollHandler } from '../../assets/js/useScrollHandler';
+import { useNavTransparenter } from '../../assets/js/useNavTransparenter';
 import { useNavItemIndicator  } from '../../assets/js/useNavItemIndicator';
 
 export default function Navbar() {
-    const isTransparent = useScrollHandler(); 
+    const isTransparent = useNavTransparenter(); 
     useNavItemIndicator ();
 
     return (

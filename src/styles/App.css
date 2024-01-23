@@ -1,6 +1,6 @@
 html{
     scroll-behavior: smooth;
-    scroll-padding-top: var(--scroll-padding, 60px);
+    scroll-padding-top: var(--scroll-padding, 40px);
 }
 
 .fs-0 {

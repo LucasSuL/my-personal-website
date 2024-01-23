@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export const useScrollHandler = () => {
+export const useNavTransparenter = () => {
     const [isTransparent, setIsTransparent] = useState(true);
 
     // set transparent navbar when on top
@@ -13,7 +13,7 @@ export const useScrollHandler = () => {
         // handle navbar height offset for anchors
         window.addEventListener('scroll', handleScroll);
         const navElement = document.querySelector('.navbar');
-        const navbarHeight = navElement ? navElement.offsetHeight + 'px' : '55px';
+        const navbarHeight = navElement ? navElement.offsetHeight + 'px' : '40px';
         document.documentElement.style.setProperty('--scroll-padding', navbarHeight);
 
         // handle navbar toggle button click
