@@ -21,3 +21,11 @@
 .hero-icon:not(:hover) {
     transform: translateY(0);
 }
+
+@media only screen and (max-width: 600px) {
+    .cust-hero {
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}

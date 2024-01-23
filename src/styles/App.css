@@ -3,7 +3,6 @@ html{
     scroll-padding-top: var(--scroll-padding, 60px);
 }
 
-
 .fs-0 {
     font-size: 3rem;
 }
@@ -14,10 +13,6 @@ html{
 
 .fs-8 {
     font-size: 0.8rem;
-}
-
-.text-shorter {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .text-header {
