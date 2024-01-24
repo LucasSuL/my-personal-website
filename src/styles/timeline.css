@@ -28,6 +28,7 @@
 }
 
 .tm-container {
+    margin-top: 3px;
     width: 80%;
     max-width: 1000px;
     height: auto;

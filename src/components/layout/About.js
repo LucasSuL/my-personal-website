@@ -1,5 +1,5 @@
 import React from "react"
-import useScrollAppearEffect from '../../assets/js/useScrollAppearEffect'; 
+import useScrollAppearEffect from '../../assets/js/useScrollAppearEffect';
 
 import portrait from "../../images/lucassu.jpg"
 import Data from "../../data.json"
@@ -7,9 +7,9 @@ import HobbyBadge from "../elements/HobbyBadge"
 
 
 export default function About() {
-    const appearStyle = useScrollAppearEffect();
-    // const elementRef = useRef();
-    // const elementStyles = useScrollAppearEffect(elementRef);
+    const appearStyleToptext = useScrollAppearEffect({ id: 'about', name: 'toptext' });
+    const appearStyleGoal = useScrollAppearEffect({ id: 'about', name: 'goal' });
+    const appearStyleHobbies = useScrollAppearEffect({ id: 'about', name: 'hobbies' });
 
     const hobbies = Data.hobbies.map((value, index) => {
         return (
@@ -30,31 +30,38 @@ export default function About() {
                     alt="Lucas Su"
                     class="rounded-circle my-3 border border-success-subtle border-4 shadow"
                 />
-                <div class="container d-flex flex-column align-items-center ">
-                    <h3 class="fw-bold mb-3 text-center"style={appearStyle}>Hello there! I'm pleased you discovered my profile.</h3>
-                    <p class="fw-light fs-5 m-0" style={appearStyle}>
-                        I have a background in urban planning, where I gained extensive experience working on various large-scale projects.
-                        <span> Visit the<span><a href="#downloads" class="text-light ms-1 fw-bold link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Download</a></span> section if you are interested in my portfolio as an Urban Planner.</span>
-                    </p>
 
-                    <p class="fw-light fs-5 m-0" style={appearStyle}>
-                        Currently, I am pursuing a master's degree in computer science. By merging my insights from urban planning with my computer science skills, I aim to catalyze innovation and tackle challenges.
-                    </p>
-                    <p class="fs-5 mt-3" style={appearStyle}>My goal is to become a :</p>
-                    <div class="fs-4 mt-3 d-flex flex-column align-items-center text-header" style={appearStyle}>
+                <div class="container d-flex flex-column align-items-center">
+                    <div className="toptext" style={appearStyleToptext}>
+                        <h3 class="fw-bold mb-3 text-center" >{Data.about.hello}</h3>
+                        <p class="fw-light fs-5 m-0" >
+                            {Data.about.up}
+                            <span> Visit the<span>
+                                <a
+                                    href="#downloads"
+                                    class="text-light ms-1 fw-normal link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">
+                                    Download
+                                </a>
+                            </span> section if you are interested in my portfolio as an Urban Planner.</span>
+                        </p>
+
+                        <p class="fw-light fs-5 m-0" >
+                            {Data.about.curr}
+                        </p>
+                    </div>
+
+                    <div class="fs-4 mt-5 d-flex flex-column align-items-center text-header goal" style={appearStyleGoal} >
+                        <p class="fs-5 mb-3" >My goal is to be:</p>
                         <p class="m-0">Front End Developer</p>
                         <p class="m-0">Full Stack Developer</p>
                         <p class="m-0">Product Manager</p>
                     </div>
-                    <p class="fw-light fs-5 m-0"></p>
 
-                </div>
-                <div class="container row row-cols-lg-5 g-2 fs-8 p-5 g-4">
-                    {hobbies}
+                    <div class="container row row-cols-lg-5 g-2 fs-8 p-5 g-4 hobbies" style={appearStyleHobbies}>
+                        {hobbies}
+                    </div>
                 </div>
             </div>
-
-
         </section>
     );
 }

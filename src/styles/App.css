@@ -23,6 +23,10 @@ html{
     letter-spacing: -0.03em;
 }
 
+/* .text-secondary-hover:hover{
+    opacity: 0.75;
+} */
+
 .clamp-two-lines {
     display: -webkit-box;
     -webkit-box-orient: vertical;

@@ -1,14 +1,29 @@
 import { useState, useEffect } from 'react';
 
-const useScrollAppearEffect = () => {
+const useScrollAppearEffect = ({ id, name }) => {
     const [opacity, setOpacity] = useState(0);
     const [translateY, setTranslateY] = useState(30);
     const [hasAppeared, setHasAppeared] = useState(false);
 
     const handleScroll = () => {
-        const scrollPosition = window.scrollY;
+        const goal = document.querySelector(`#${id} .${name}`)
+        const pos = goal.getBoundingClientRect().y
+        const screenHeight = window.innerHeight;
+        
+        const maxOffset = 150;
+        const offset = Math.min(goal.getBoundingClientRect().height * 0.8, maxOffset)
 
-        if (!hasAppeared && scrollPosition > 400) {
+        // //for test 
+        // if (id === "skills") {
+        //     const scrollPosition = window.scrollY;
+        //     console.log(Math.floor(scrollPosition), Math.floor(pos))
+        // }
+
+        if (!hasAppeared && pos < screenHeight - offset) {
+            // if (id === "skills") {
+            //     console.log("Triggered:" + pos, offset)
+            // }
+            
             // Only perform the effect once when scroll position exceeds a certain value (e.g., 400)
             setHasAppeared(true);
 
@@ -18,6 +33,7 @@ const useScrollAppearEffect = () => {
         }
     };
 
+    /* eslint-disable react-hooks/exhaustive-deps */
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
 

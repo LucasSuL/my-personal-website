@@ -1,4 +1,10 @@
 {
+    "about":{
+        "hello":"Hello there! I'm pleased you discovered my profile.",
+        "up":"I have a background in urban planning, where I gained extensive experience working on various large-scale projects.",
+        "curr":"Currently, I am pursuing a master's degree in computer science. By merging my insights from urban planning with my computer science skills, I aim to catalyze innovation and tackle challenges."
+    },
+
     "hobbies": [
         {
             "name": "Cycling",
