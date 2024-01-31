@@ -89,7 +89,7 @@ export default function Footer() {
 
                         <div class="col-md-4 offset-md-1 mb-3">
                             <form name="submit-to-google-sheet" onSubmit={submitHandler}>
-                                <h5 class="mb-2">Leave a message</h5>
+                                <h5 class="mb-3">Leave a message</h5>
                                 <div class="d-flex flex-column w-100 gap-2" style={{ maxWidth: "400px" }}>
                                     <div class="mb-2">
                                         <label for="exampleFormControlInput1" class="form-label visually-hidden">Email address</label>
@@ -151,7 +151,7 @@ export default function Footer() {
                         <p>
                             Built at <i class="fas fa-moon" /> by{" "}
                             <a
-                                href="https://github.com/LucasSuL/my-personal-website-react-bootstrap" target="_blank" rel="noreferrer" class="text-decoration-none text-light fw-bold text-header">
+                                href="https://github.com/LucasSuL/my-personal-website" target="_blank" rel="noreferrer" class="text-decoration-none text-light fw-bold text-header">
                                 Lucas Su
                             </a>
                         </p>
