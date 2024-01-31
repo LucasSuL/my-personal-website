@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-deploy-gh/static/css/main.47564aa6.css",
-    "main.js": "/react-deploy-gh/static/js/main.1e3b5204.js",
-    "static/media/Portfolio_Su Lijie 2022.2_compressed.pdf": "/react-deploy-gh/static/media/Portfolio_Su Lijie 2022.2_compressed.0f6c31e8b018968d958e.pdf",
-    "static/media/Starry Night.pdf": "/react-deploy-gh/static/media/Starry Night.4538c52523ee5b671b8c.pdf",
-    "static/media/Resume Jan 2024.pdf": "/react-deploy-gh/static/media/Resume Jan 2024.da6b96bb865c238beb5c.pdf",
-    "static/media/cover10.JPG": "/react-deploy-gh/static/media/cover10.952b99bb1b07d91cdced.JPG",
-    "static/media/lucassu.jpg": "/react-deploy-gh/static/media/lucassu.3ab2fd5f03b8241e290f.jpg",
-    "static/media/Transcript Jan 2024.pdf": "/react-deploy-gh/static/media/Transcript Jan 2024.0f2f572919c4adf80ee1.pdf",
-    "index.html": "/react-deploy-gh/index.html",
-    "main.47564aa6.css.map": "/react-deploy-gh/static/css/main.47564aa6.css.map",
-    "main.1e3b5204.js.map": "/react-deploy-gh/static/js/main.1e3b5204.js.map"
+    "main.css": "/my-personal-website/static/css/main.9d9782ca.css",
+    "main.js": "/my-personal-website/static/js/main.16b55893.js",
+    "static/media/Portfolio_Su Lijie 2022.2_compressed.pdf": "/my-personal-website/static/media/Portfolio_Su Lijie 2022.2_compressed.0f6c31e8b018968d958e.pdf",
+    "static/media/Starry Night.pdf": "/my-personal-website/static/media/Starry Night.4538c52523ee5b671b8c.pdf",
+    "static/media/Resume Jan 2024.pdf": "/my-personal-website/static/media/Resume Jan 2024.da6b96bb865c238beb5c.pdf",
+    "static/media/cover10.JPG": "/my-personal-website/static/media/cover10.952b99bb1b07d91cdced.JPG",
+    "static/media/lucassu.jpg": "/my-personal-website/static/media/lucassu.3ab2fd5f03b8241e290f.jpg",
+    "static/media/Transcript Jan 2024.pdf": "/my-personal-website/static/media/Transcript Jan 2024.0f2f572919c4adf80ee1.pdf",
+    "index.html": "/my-personal-website/index.html",
+    "main.9d9782ca.css.map": "/my-personal-website/static/css/main.9d9782ca.css.map",
+    "main.16b55893.js.map": "/my-personal-website/static/js/main.16b55893.js.map"
   },
   "entrypoints": [
-    "static/css/main.47564aa6.css",
-    "static/js/main.1e3b5204.js"
+    "static/css/main.9d9782ca.css",
+    "static/js/main.16b55893.js"
   ]
 }
