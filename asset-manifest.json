@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-deploy-gh/static/css/main.47564aa6.css",
-    "main.js": "/react-deploy-gh/static/js/main.78559f14.js",
+    "main.js": "/react-deploy-gh/static/js/main.1e3b5204.js",
     "static/media/Portfolio_Su Lijie 2022.2_compressed.pdf": "/react-deploy-gh/static/media/Portfolio_Su Lijie 2022.2_compressed.0f6c31e8b018968d958e.pdf",
     "static/media/Starry Night.pdf": "/react-deploy-gh/static/media/Starry Night.4538c52523ee5b671b8c.pdf",
     "static/media/Resume Jan 2024.pdf": "/react-deploy-gh/static/media/Resume Jan 2024.da6b96bb865c238beb5c.pdf",
@@ -10,10 +10,10 @@
     "static/media/Transcript Jan 2024.pdf": "/react-deploy-gh/static/media/Transcript Jan 2024.0f2f572919c4adf80ee1.pdf",
     "index.html": "/react-deploy-gh/index.html",
     "main.47564aa6.css.map": "/react-deploy-gh/static/css/main.47564aa6.css.map",
-    "main.78559f14.js.map": "/react-deploy-gh/static/js/main.78559f14.js.map"
+    "main.1e3b5204.js.map": "/react-deploy-gh/static/js/main.1e3b5204.js.map"
   },
   "entrypoints": [
     "static/css/main.47564aa6.css",
-    "static/js/main.78559f14.js"
+    "static/js/main.1e3b5204.js"
   ]
 }
