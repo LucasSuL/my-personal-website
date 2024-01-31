@@ -1,13 +1,56 @@
-import React from "react"
-import submitGoogleSheet from "../../assets/js/useSubmitGoogleSheet"
-import "../../styles/footer.css"
+import { React, useState } from "react"
 import resume from "../../downloads/Resume Jan 2024.pdf"
 import transcript from "../../downloads/Transcript Jan 2024.pdf"
 import portfolio from "../../downloads/Portfolio_Su Lijie 2022.2_compressed.pdf"
 import pianoComposition from "../../downloads/Starry Night.pdf"
+import "../../styles/footer.css"
 
 export default function Footer() {
-    submitGoogleSheet();
+
+    const [modalMessage, setModalMessage] = useState({ head: "", body: "" });
+    const [email, setEmail] = useState("");
+    const [msg, setMsg] = useState("");
+    const [isPending, setIsPending] = useState(false);
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false)
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwHEK6y9AmSg7149c4LnqNfQxHGq-HVLiY88YrkKPsHY-UJ5RIB3cWkrRVej0IV6bE/exec';
+
+    const closeModal = () => {
+        setIsFormSubmitted(false);
+    };
+
+    const submitHandler = async (e) => {
+        e.preventDefault();
+        console.log('submit')
+
+        const data = new FormData();
+        data.append('Email', email);
+        data.append('Message', msg);
+
+        setIsPending(true)
+
+        try {
+            const response = await fetch(scriptURL, { method: 'POST', body: data });
+
+            if (response.ok) {
+                console.log('response.ok')
+                setIsFormSubmitted(true)
+                setIsPending(false)
+
+                setModalMessage({ head: "Submit successful!", body: "Thank you for reaching out! I will respond to you as soon as possible." });
+                setEmail('')
+                setMsg('')
+                window.jQuery('#exampleModal').modal('show');
+
+            } else {
+                console.log('response.error')
+                setModalMessage({ head: "Sorry!", body: "The message send is unsuccessful, please try later" });
+            }
+        } catch (error) {
+            console.log('submit.error: ' + error);
+            setModalMessage({ head: "Sorry!", body: `An error occured: ${error}` });
+        }
+    };
+
     return (
         <div class="container-fluid text-bg-dark mt-5 d-flex justify-content-center p-0">
             <div className="container " style={{ maxWidth: "1200px" }}>
@@ -24,14 +67,13 @@ export default function Footer() {
                             </ul>
                         </div>
 
-
                         <div class="col-6 col-sm-4 col-md-2 mb-3">
                             <h5>About</h5>
                             <ul class="flex-column list-unstyled">
-                                <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="p-0 text-secondary text-decoration-none" target="_blank">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                                <li class="mb-2"><a href="https://github.com/LucasSuL" class="p-0 text-secondary text-decoration-none" target="_blank">GitHub <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                                <li class="mb-2"><a href="https://dev.to/lucassul" class="p-0 text-secondary text-decoration-none" target="_blank">Dev Community <i class="bi bi-arrow-up-right fs-8"></i></a></li>
-                                <li class="mb-2"><a href="https://www.strava.com/athletes/84823175" class="p-0 text-secondary text-decoration-none" target="_blank">Strava <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                                <li class="mb-2"><a href="https://www.linkedin.com/in/lucas-su-758b4b10a/" class="p-0 text-secondary text-decoration-none" target="_blank" rel="noreferrer">LinkedIn <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                                <li class="mb-2"><a href="https://github.com/LucasSuL" class="p-0 text-secondary text-decoration-none" target="_blank" rel="noreferrer">GitHub <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                                <li class="mb-2"><a href="https://dev.to/lucassul" class="p-0 text-secondary text-decoration-none" target="_blank" rel="noreferrer">Dev Community <i class="bi bi-arrow-up-right fs-8"></i></a></li>
+                                <li class="mb-2"><a href="https://www.strava.com/athletes/84823175" class="p-0 text-secondary text-decoration-none" target="_blank" rel="noreferrer">Strava <i class="bi bi-arrow-up-right fs-8"></i></a></li>
                             </ul>
                         </div>
 
@@ -46,33 +88,58 @@ export default function Footer() {
                         </div>
 
                         <div class="col-md-4 offset-md-1 mb-3">
-                            <form name="submit-to-google-sheet">
+                            <form name="submit-to-google-sheet" onSubmit={submitHandler}>
                                 <h5 class="mb-2">Leave a message</h5>
                                 <div class="d-flex flex-column w-100 gap-2" style={{ maxWidth: "400px" }}>
                                     <div class="mb-2">
                                         <label for="exampleFormControlInput1" class="form-label visually-hidden">Email address</label>
-                                        <input type="email" class="form-control" name="Name" id="exampleFormControlInput1" placeholder="Email address" />
+                                        <input required
+                                            type="email"
+                                            class="form-control"
+                                            name="Email"
+                                            value={email}
+                                            onChange={(e) => setEmail(e.target.value)}
+                                            id="exampleFormControlInput1"
+                                            placeholder="Email address" />
                                     </div>
                                     <div class="mb-2">
-                                        <label for="exampleFormControlTextarea1" class="form-label visually-hidden">Example textarea</label>
-                                        <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <label for="exampleFormControlTextarea1" class="form-label visually-hidden" >Example textarea</label>
+                                        <textarea required
+                                            class="form-control"
+                                            name="Message"
+                                            value={msg}
+                                            onChange={(e) => setMsg(e.target.value)}
+                                            id="exampleFormControlTextarea1"
+                                            rows="3" ></textarea>
                                     </div>
-                                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Submit</button>
+                                    {!isPending &&
+                                        <button
+                                            class="btn btn-primary"
+                                            data-bs-toggle={isFormSubmitted ? 'modal' : ''}
+                                            data-bs-target={isFormSubmitted ? '#exampleModal' : ''}
+                                            type="submit">Submit
+                                        </button>}
+                                    {isPending && <button disabled
+                                        class="btn btn-primary"
+                                        type="submit">Submitting...
+                                    </button>}
                                 </div>
                             </form>
-
                             <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
+                                <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Hi!</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">{modalMessage.head}</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
-                                        <div class="modal-body">
-                                        Thank you for reaching out! I will respond to you as soon as possible.
-                                        </div>
+                                        <div class="modal-body">{modalMessage.body}</div>
                                         <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button
+                                                type="button"
+                                                class="btn btn-secondary"
+                                                data-bs-dismiss="modal"
+                                                onClick={closeModal}
+                                            >Close</button>
                                         </div>
                                     </div>
                                 </div>
@@ -84,13 +151,13 @@ export default function Footer() {
                         <p>
                             Built at <i class="fas fa-moon" /> by{" "}
                             <a
-                                href="https://github.com/LucasSuL/my-personal-website-react-bootstrap" target="_blank" class="text-decoration-none text-light fw-bold text-header">
+                                href="https://github.com/LucasSuL/my-personal-website-react-bootstrap" target="_blank" rel="noreferrer" class="text-decoration-none text-light fw-bold text-header">
                                 Lucas Su
                             </a>
                         </p>
                         <div class="d-flex justify-content-center align-items-center mb-4 ">
                             <span class=" text-secondary text-s-2">Made with</span>
-                            <a href="https://getbootstrap.com/" target="_blank" class="cust-foot">
+                            <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer" class="cust-foot">
                                 <span><i class="fa-brands fa-bootstrap fa-2xl ms-2 text-white fs-3"></i></span>
                             </a>
                         </div>
@@ -99,5 +166,64 @@ export default function Footer() {
             </div>
 
         </div>
+        // <div>
+        //     <form name="submit-to-google-sheet" onSubmit={submitHandler}>
+        //         <h5 class="mb-2">Leave a message</h5>
+        //         <div class="d-flex flex-column w-100 gap-2" style={{ maxWidth: "400px" }}>
+        //             <div class="mb-2">
+        //                 <label for="exampleFormControlInput1" class="form-label visually-hidden">Email address</label>
+        //                 <input required
+        //                     type="email"
+        //                     class="form-control"
+        //                     name="Email"
+        //                     value={email}
+        //                     onChange={(e) => setEmail(e.target.value)}
+        //                     id="exampleFormControlInput1"
+        //                     placeholder="Email address" />
+        //             </div>
+        //             <div class="mb-2">
+        //                 <label for="exampleFormControlTextarea1" class="form-label visually-hidden" >Example textarea</label>
+        //                 <textarea required
+        //                     class="form-control"
+        //                     name="Message"
+        //                     value={msg}
+        //                     onChange={(e) => setMsg(e.target.value)}
+        //                     id="exampleFormControlTextarea1"
+        //                     rows="3" ></textarea>
+        //             </div>
+        //             {!isPending &&
+        //                 <button
+        //                     class="btn btn-primary"
+        //                     data-bs-toggle={isFormSubmitted ? 'modal' : ''}
+        //                     data-bs-target={isFormSubmitted ? '#exampleModal' : ''}
+        //                     type="submit">Submit
+        //                 </button>}
+        //             {isPending && <button disabled
+        //                 class="btn btn-primary"
+        //                 type="submit">Submitting...
+        //             </button>}
+        //         </div>
+        //     </form>
+        //     {console.log('modal.render = ' + isFormSubmitted)}
+        //     <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        //         <div class="modal-dialog modal-dialog-centered">
+        //             <div class="modal-content">
+        //                 <div class="modal-header">
+        //                     <h1 class="modal-title fs-5" id="exampleModalLabel">{modalMessage.head}</h1>
+        //                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        //                 </div>
+        //                 <div class="modal-body">{modalMessage.body}</div>
+        //                 <div class="modal-footer">
+        //                     <button
+        //                         type="button"
+        //                         class="btn btn-secondary"
+        //                         data-bs-dismiss="modal"
+        //                         onClick={closeModal}
+        //                     >Close</button>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
     );
 }
