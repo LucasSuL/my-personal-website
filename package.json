@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://lucassul.github.io/react-deploy-gh",
+  "homepage": "https://lucassul.github.io/my-personal-website",
   "private": true,
   "dependencies": {
     "jquery": "^3.7.1",
