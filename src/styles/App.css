@@ -1,26 +1,26 @@
-html{
-    scroll-behavior: smooth;
-    scroll-padding-top: var(--scroll-padding, 40px);
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 40px);
 }
 
 .fs-0 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .fs-7 {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .fs-8 {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .text-header {
-    font-family: 'Red Hat Text', sans-serif;
+  font-family: "Red Hat Text", sans-serif;
 }
 
-.text-tight{
-    letter-spacing: -0.03em;
+.text-tight {
+  letter-spacing: -0.03em;
 }
 
 /* .text-secondary-hover:hover{
@@ -28,16 +28,14 @@ html{
 } */
 
 .clamp-two-lines {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
 }
 
 @media only screen and (max-width: 600px) {
-    .text-tight{
-        letter-spacing: -0.05em;
-    }
+  .text-tight {
+    letter-spacing: -0.05em;
+  }
 }
-
-
