@@ -76,23 +76,15 @@
       "website": "https://www.adelaide.edu.au/degree-finder/mcomi_mcompinnov.html",
       "startDate": "2022-07-24",
       "endDate": "2024-07-10",
-      "summary": "This challenging master's program is tailored for students without a background in computer science who aim to transition to a computer science-related field. Currently, I have maintained a weighted average score of 91.2 across all my computer science-related courses, covering various algorithmic courses, artificial intelligence, operating systems, and others. My GPA for all courses stands at 6.5 out of 7.0"
-    },
-    {
-      "company": "Atkins",
-      "position": "Project Manager / Urban Planner",
-      "website": "https://www.atkinsrealis.com/",
-      "startDate": "2020-07-10",
-      "endDate": "2022-07-10",
-      "summary": "In addition to handling technical tasks, I am also responsible for the majority of project management duties. This includes developing design plans, coordinating project team members, conducting initial financial analysis, and managing communication across various levels."
+      "summary": "I have maintained a weighted average score of 91.2 across all my computer science-related courses, covering various algorithmic courses, artificial intelligence, operating systems, and others. My GPA for all courses stands at 6.5 out of 7.0"
     },
     {
       "company": "Atkins",
       "position": "Assistant Urban Planner",
       "website": "https://www.atkinsrealis.com/",
       "startDate": "2016-07-14",
-      "endDate": "2020-07-10",
-      "summary": "Over 6 years of experience in top-end urban planning projects in China, where I actively participated in numerous large-scale urban development and consultancy projects."
+      "endDate": "2022-07-10",
+      "summary": "With over 6 years of experience in leading urban planning projects, I have actively contributed to 20+ large-scale urban development and consultancy initiatives. In addition to technical responsibilities, I have taken on a role in project management, overseeing tasks such as coordinating team members, conducting initial financial plan, and managing communication across various levels."
     },
     {
       "company": "Atkins",
@@ -100,7 +92,7 @@
       "website": "https://www.atkinsrealis.com/",
       "startDate": "2015-11-14",
       "endDate": "2016-02-10",
-      "summary": "As the design intern in the team which successfully competed against Jurong Singapore and the Boston Consultancy Group to secure the Meishan consultancy project in Jan 2016."
+      "summary": "Contributed as a key member of the planning team involved in securing a project, won against Surbana Jurong Group and Boston Consulting Group (BCG)."
     },
     {
       "company": "Beijing University of Civil Engineering and Architecture",
@@ -108,7 +100,7 @@
       "website": "https://english.bucea.edu.cn/",
       "startDate": "2011-09-01",
       "endDate": "2016-07-01",
-      "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and engineering."
+      "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and its surrounding disciplines."
     }
   ]
 }
