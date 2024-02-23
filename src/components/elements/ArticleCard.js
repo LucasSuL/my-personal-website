@@ -9,6 +9,7 @@ export default function ArticleCard({ title, description, date, url, image }) {
             class="col-10 align-self-center clamp-two-lines fw-bold text-header fs-5 lh-sm link-dark text-decoration-none"
             href={url}
             target="_blank"
+            rel="noreferrer"
           >
             {title}
           </a>
@@ -18,7 +19,7 @@ export default function ArticleCard({ title, description, date, url, image }) {
         </div>
 
         <div class="card-body p-0">
-          <img class="w-100" src={image}></img>
+          <img class="w-100" src={image} alt="article"></img>
           <div className="p-2 px-4 pb-3">
             <p class="card-text">{description}</p>
             <h6 class="card-subtitle  text-body-secondary fs-8">{date}</h6>
