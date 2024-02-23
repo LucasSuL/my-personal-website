@@ -1,7 +1,7 @@
 import React from "react";
 import useScrollAppearEffect from "../../assets/js/useScrollAppearEffect";
 
-import portrait from "../../images/lucassu.jpg";
+import portrait from "../../images/LucasSu.png";
 import Data from "../../data.json";
 import HobbyBadge from "../elements/HobbyBadge";
 
@@ -37,21 +37,21 @@ export default function About() {
         <div class="container d-flex flex-column align-items-center">
           <div className="toptext" style={appearStyleToptext}>
             <h3 class="fw-bold mb-3 text-center">{Data.about.hello}</h3>
-            <p class="fw-light fs-5 m-0">
+            <p class="fw-light fs-5 m-0 mb-2">
               {Data.about.up}
               <span>
                 {" "}
-                Visit the
+                (Visit the
                 <span>
                   <a
                     href="#downloads"
                     class="text-light ms-1 fw-normal link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
                   >
-                    Download
+                    Downloads
                   </a>
                 </span>{" "}
                 section if you are interested in my portfolio as an Urban
-                Planner.
+                Planner.)
               </span>
             </p>
 

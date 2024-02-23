@@ -2,7 +2,7 @@
   "about": {
     "hello": "Hello there! I'm pleased you discovered my profile.",
     "up": "My past experiences as an urban planner have exposed me to the challenges of numerous large-scale projects, enhancing my skills in design and project management.",
-    "curr": "Now, I aspire to contribute to businesses as a developer, providing more efficient solutions and empowering humanity to lead better lives."
+    "curr": "Presently, I am dedicated to harnessing computer technology to empower businesses, aspiring to facilitate a more enriched and smarter lifestyle. As a developer and former designer, I hope to bring a unique blend of skills driven by curiosity, rapid learning."
   },
 
   "hobbies": [
@@ -29,44 +29,44 @@
   ],
   "skills": [
     {
-      "name": "React",
+      "name": "Front-end development",
       "icon": "fa-brands fa-react",
-      "description": "EC2, VPC, Cognito, CloudFormation, RDS, S3, CloudFront, IAM and others"
+      "description": "Skillful in using React and styling frameworks like Bootstrap to create high-quality, responsive webpages."
     },
     {
-      "name": "Node",
+      "name": "Back-end development",
       "icon": "fa-brands fa-node",
-      "description": "Developing and maintaing infrastructure as code with Terraform, Packer and Vagrant"
+      "description": "Familiar with Node.js, Express.js, PostgreSQL and MySQL. Able to write RESTful APIs. Experience with Typescript."
     },
     {
-      "name": "Bootstrap",
-      "icon": "fa-brands fa-bootstrap",
-      "description": "Launching, configuring and maintaining cloud environments with Ansible"
+      "name": "Agile development",
+      "icon": "fas fa-rocket",
+      "description": "Understand and fully recognise Agile development and Scrum methodologies."
     },
     {
-      "name": "MySQL",
-      "icon": "fa-database",
-      "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+      "name": "Version control",
+      "icon": "fa-solid fa-code-branch",
+      "description": "Familiar with Git, GitHub and task lifecycle for better teamwork and version control."
     },
     {
-      "name": "AutoCAD",
+      "name": "Engineering drawing",
       "icon": "fa-compass-drafting",
-      "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+      "description": "Skilled in generating engineering-style diagrams using AutoCAD with adherence to industry layer standards."
     },
     {
-      "name": "SketchUp",
-      "icon": "fa-cubes",
-      "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
-    },
-    {
-      "name": "PS/AI",
+      "name": "Graphics & Design",
       "icon": "fa-layer-group",
-      "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+      "description": "Proficient in Adobe Photoshop, Illustrator, and InDesign for content layout and the creation of high-quality analysis diagrams."
     },
     {
-      "name": "ArcGIS",
-      "icon": "fa-mountain-city",
-      "description": "Implementing continuous integration and deployment pipelines with Jenkins and GitLab CI"
+      "name": "Modelling & Rendering",
+      "icon": "fa-cubes",
+      "description": "Using SketchUp to create detailed 3D digital models and rendering with V-Ray/Lumion."
+    },
+    {
+      "name": "Report Writing",
+      "icon": "fa-solid fa-file-powerpoint",
+      "description": "Skillful in Markdown and PowerPoint for effective and high quality presentation design."
     }
   ],
   "experience": [
@@ -76,11 +76,11 @@
       "website": "https://www.adelaide.edu.au/degree-finder/mcomi_mcompinnov.html",
       "startDate": "2022-07-24",
       "endDate": "2024-07-10",
-      "summary": "I have maintained a weighted average score of 91.2 across all my computer science-related courses, covering various algorithmic courses, artificial intelligence, operating systems, and others. My GPA for all courses stands at 6.5 out of 7.0"
+      "summary": "I have maintained a weighted average score of 91/100 across all my computer science-related courses, covering various algorithmic courses, artificial intelligence, operating systems, and others. My GPA for all courses stands at 6.5 out of 7.0"
     },
     {
       "company": "Atkins",
-      "position": "Assistant Urban Planner",
+      "position": "Urban Planner/Project Manager",
       "website": "https://www.atkinsrealis.com/",
       "startDate": "2016-07-14",
       "endDate": "2022-07-10",
@@ -100,7 +100,7 @@
       "website": "https://english.bucea.edu.cn/",
       "startDate": "2011-09-01",
       "endDate": "2016-07-01",
-      "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and its surrounding disciplines."
+      "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and its surrounding disciplines. Average grade: 86/100"
     }
   ]
 }
