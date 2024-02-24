@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 const useScrollAppearEffect = ({ id, name }) => {
   const [opacity, setOpacity] = useState(0);
-  const [translateY, setTranslateY] = useState(30);
+  const [translateY, setTranslateY] = useState(60);
   const [hasAppeared, setHasAppeared] = useState(false);
 
   const handleScroll = () => {
@@ -16,17 +16,7 @@ const useScrollAppearEffect = ({ id, name }) => {
       maxOffset
     );
 
-    // //for test
-    // if (id === "skills") {
-    //     const scrollPosition = window.scrollY;
-    //     console.log(Math.floor(scrollPosition), Math.floor(pos))
-    // }
-
     if (!hasAppeared && pos < screenHeight - offset) {
-      // if (id === "skills") {
-      //     console.log("Triggered:" + pos, offset)
-      // }
-
       // Only perform the effect once when scroll position exceeds a certain value (e.g., 400)
       setHasAppeared(true);
 
@@ -48,7 +38,7 @@ const useScrollAppearEffect = ({ id, name }) => {
   const appearStyle = {
     opacity,
     transform: `translateY(${translateY}px)`,
-    transition: "opacity 0.5s, transform 0.5s",
+    transition: "opacity 0.8s, transform 0.8s",
   };
 
   return appearStyle;

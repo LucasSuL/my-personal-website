@@ -7,7 +7,15 @@
 
 .cust-hero-body {
   height: 80vh;
+  /* opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease; */
 }
+/* .cust-hero-badge{
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+} */
 
 .hero-icon {
   transition: transform 0.2s ease, color 0.2s ease;

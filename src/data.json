@@ -29,32 +29,32 @@
   ],
   "skills": [
     {
-      "name": "Front-end development",
+      "name": "Front-End Development",
       "icon": "fa-brands fa-react",
-      "description": "Skillful in using React and styling frameworks like Bootstrap to create high-quality, responsive webpages."
+      "description": "Proficient in utilizing framework like React and Bootstrap to develop high-quality, responsive webpages. Experience with Typescript to ensure robust development."
     },
     {
-      "name": "Back-end development",
+      "name": "Back-End Development",
       "icon": "fa-brands fa-node",
-      "description": "Familiar with Node.js, Express.js, PostgreSQL and MySQL. Able to write RESTful APIs. Experience with Typescript."
+      "description": "Skilled in Node.js, Express.js, PostgreSQL (including Supabase) and MySQL. Capable of building RESTful APIs and conducting testing using Postman."
     },
     {
-      "name": "Agile development",
+      "name": "Agile Development",
       "icon": "fas fa-rocket",
-      "description": "Understand and fully recognise Agile development and Scrum methodologies."
+      "description": "Familiar with and recognise Agile development and Scrum methodologies."
     },
     {
-      "name": "Version control",
+      "name": "Version Control",
       "icon": "fa-solid fa-code-branch",
-      "description": "Familiar with Git, GitHub and task lifecycle for better teamwork and version control."
+      "description": "Experienced in using Git and GitHub for collaboration and version control."
     },
     {
-      "name": "Engineering drawing",
+      "name": "Engineering Drawing",
       "icon": "fa-compass-drafting",
-      "description": "Skilled in generating engineering-style diagrams using AutoCAD with adherence to industry layer standards."
+      "description": "Proficient in creating engineering-style diagrams using AutoCAD and relevant plugins."
     },
     {
-      "name": "Graphics & Design",
+      "name": "Graphic Design",
       "icon": "fa-layer-group",
       "description": "Proficient in Adobe Photoshop, Illustrator, and InDesign for content layout and the creation of high-quality analysis diagrams."
     },
