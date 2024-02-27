@@ -1,6 +1,6 @@
 import { React, useState } from "react";
-import resume from "../../downloads/Resume Feb 2024.pdf";
-import transcript from "../../downloads/Transcript Jan 2024.pdf";
+import resume from "../../downloads/Lucas Su Resume Feb 2024.pdf";
+import transcript from "../../downloads/Lucas Su Transcript Jan 2024.pdf";
 import portfolio from "../../downloads/Portfolio_Su Lijie 2022.2_compressed.pdf";
 import pianoComposition from "../../downloads/Starry Night.pdf";
 import "../../styles/footer.css";
