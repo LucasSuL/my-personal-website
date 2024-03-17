@@ -48,7 +48,7 @@ export default function Hero() {
             // style={appearStyleHomeBadge}
           >
             <a
-              href="https://www.linkedin.com/in/lucas-su-758b4b10a/"
+              href="https://www.linkedin.com/in/lucassudev/"
               target="_blank"
               rel="noreferrer"
               title="LinkedIn"

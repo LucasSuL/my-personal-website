@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import resume from "../../downloads/Lucas Su Resume Feb 2024.pdf";
+import resume from "../../downloads/Lucas Su Resume.pdf";
 import transcript from "../../downloads/Lucas Su Transcript Jan 2024.pdf";
 import portfolio from "../../downloads/Portfolio_Su Lijie 2022.2_compressed.pdf";
 import pianoComposition from "../../downloads/Starry Night.pdf";
@@ -109,7 +109,7 @@ export default function Footer() {
               <ul class="flex-column list-unstyled">
                 <li class="mb-2">
                   <a
-                    href="https://www.linkedin.com/in/lucas-su-758b4b10a/"
+                    href="https://www.linkedin.com/in/lucassudev/"
                     class="p-0 text-secondary text-decoration-none"
                     target="_blank"
                     rel="noreferrer"
