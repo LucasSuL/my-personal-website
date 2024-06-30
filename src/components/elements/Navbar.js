@@ -2,16 +2,37 @@ import React from "react";
 import "../../styles/navbar.css";
 import { useNavTransparenter } from "../../assets/js/useNavTransparenter";
 import { useNavItemIndicator } from "../../assets/js/useNavItemIndicator";
+import  { useState, useEffect } from "react";
 
 export default function Navbar() {
   const isTransparent = useNavTransparenter();
   useNavItemIndicator();
+  const [show, setShow] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY) {
+      // if scrolling down hide the navbar
+      setShow(false);
+    } else {
+      // if scrolling up show the navbar
+      setShow(true);
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, [lastScrollY]);
 
   return (
     <nav
       class={`navbar ${
         isTransparent ? "" : "bg-cust"
-      } fixed-top navbar-expand-lg p-2`}
+      } fixed-top navbar-expand-lg p-2 ${show ? "nav-show" : "nav-hide"}`}
       data-bs-theme="dark"
     >
       <div class="container-fluid">
