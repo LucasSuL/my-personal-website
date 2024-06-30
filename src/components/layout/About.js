@@ -21,7 +21,7 @@ export default function About() {
   });
 
   return (
-    <section class="container-fluid bg-success  p-0" id="about">
+    <section class="container-fluid bg-success p-0" id="about">
       <div
         class="container d-flex flex-column align-items-center text-light "
         style={{ maxWidth: "1200px" }}

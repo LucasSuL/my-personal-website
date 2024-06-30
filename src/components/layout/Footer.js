@@ -57,7 +57,7 @@ export default function Footer() {
   };
 
   return (
-    <div class="container-fluid text-bg-dark mt-5 d-flex justify-content-center p-0">
+    <div class="container-fluid text-bg-dark d-flex justify-content-center p-0">
       <div className="container " style={{ maxWidth: "1200px" }}>
         <footer class="col container py-5">
           <div class="row">

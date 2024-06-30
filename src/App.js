@@ -12,9 +12,11 @@ function App() {
     <div className="App">
       <Home />
       <About />
-      <Skills />
-      <Experience />
-      <Articles />
+      <div className="bg-color pb-5 border">
+        <Skills />
+        <Experience />
+        <Articles />
+      </div>
       <Footer />
     </div>
   );
