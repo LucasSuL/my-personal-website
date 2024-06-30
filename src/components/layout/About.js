@@ -45,14 +45,14 @@ export default function About() {
               {Data.about.up}
               <span>
                 {" "}
-                (Visit the{" "}
+                Visit the{" "}
                 <span>
                   <a href="#downloads" className="text-decoration-none">
                     Downloads
                   </a>
                 </span>{" "}
                 section if you are interested in my portfolio as an Urban
-                Planner.)
+                Planner.
               </span>
             </p>
 
