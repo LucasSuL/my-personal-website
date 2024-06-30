@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-personal-website/static/css/main.9d9782ca.css",
-    "main.js": "/my-personal-website/static/js/main.8ee9be92.js",
+    "main.css": "/my-personal-website/static/css/main.1e61a7cc.css",
+    "main.js": "/my-personal-website/static/js/main.cc8dfe99.js",
     "static/media/Portfolio_Su Lijie 2022.2_compressed.pdf": "/my-personal-website/static/media/Portfolio_Su Lijie 2022.2_compressed.0f6c31e8b018968d958e.pdf",
     "static/media/Starry Night.pdf": "/my-personal-website/static/media/Starry Night.4538c52523ee5b671b8c.pdf",
-    "static/media/cover10.JPG": "/my-personal-website/static/media/cover10.952b99bb1b07d91cdced.JPG",
-    "static/media/Lucas Su Resume Feb 2024.pdf": "/my-personal-website/static/media/Lucas Su Resume Feb 2024.c04898d95ae1fdf828c0.pdf",
+    "static/media/cover10.JPG": "/my-personal-website/static/media/cover10.acd4ed64290d0c6350c4.JPG",
     "static/media/LucasSu.png": "/my-personal-website/static/media/LucasSu.f90738d30925b00eb6e2.png",
+    "static/media/Lucas Su Resume.pdf": "/my-personal-website/static/media/Lucas Su Resume.e4206bc410886a76f885.pdf",
     "static/media/Lucas Su Transcript Jan 2024.pdf": "/my-personal-website/static/media/Lucas Su Transcript Jan 2024.0f2f572919c4adf80ee1.pdf",
     "index.html": "/my-personal-website/index.html",
-    "main.9d9782ca.css.map": "/my-personal-website/static/css/main.9d9782ca.css.map",
-    "main.8ee9be92.js.map": "/my-personal-website/static/js/main.8ee9be92.js.map"
+    "main.1e61a7cc.css.map": "/my-personal-website/static/css/main.1e61a7cc.css.map",
+    "main.cc8dfe99.js.map": "/my-personal-website/static/js/main.cc8dfe99.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d9782ca.css",
-    "static/js/main.8ee9be92.js"
+    "static/css/main.1e61a7cc.css",
+    "static/js/main.cc8dfe99.js"
   ]
 }
