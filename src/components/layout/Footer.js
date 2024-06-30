@@ -1,8 +1,8 @@
 import { React, useState } from "react";
-import resume from "../../downloads/Lucas Su Resume.pdf";
-import transcript from "../../downloads/Lucas Su Transcript Jan 2024.pdf";
-import portfolio from "../../downloads/Portfolio_Su Lijie 2022.2_compressed.pdf";
-import pianoComposition from "../../downloads/Starry Night.pdf";
+import resume from "../../assets/downloads/Lucas Su Resume.pdf";
+import transcript from "../../assets/downloads/Lucas Su Transcript Jan 2024.pdf";
+import portfolio from "../../assets/downloads/Portfolio_Su Lijie 2022.2_compressed.pdf";
+import pianoComposition from "../../assets/downloads/Starry Night.pdf";
 import "../../styles/footer.css";
 
 export default function Footer() {

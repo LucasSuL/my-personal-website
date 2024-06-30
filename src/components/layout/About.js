@@ -1,7 +1,8 @@
 import React from "react";
 import useScrollAppearEffect from "../../assets/js/useScrollAppearEffect";
 
-import portrait from "../../images/LucasSu.png";
+import portrait from "../../assets/images/LucasSu.png";
+import boy_sit from "../../assets/images/3d-casual-life-asian-man-holding-toy-heart.png";
 import Data from "../../data.json";
 import HobbyBadge from "../elements/HobbyBadge";
 
@@ -21,7 +22,7 @@ export default function About() {
   });
 
   return (
-    <section class="container-fluid bg-light p-0" id="about">
+    <section class="container-fluid p-0" id="about">
       <div
         class="container d-flex flex-column align-items-center"
         style={{ maxWidth: "1200px", color: "#092B47" }}
@@ -35,10 +36,10 @@ export default function About() {
           height="180px"
           src={portrait}
           alt="Lucas Su"
-          className="rounded-circle mb-3 border border-success-subtle border-4 shadow"
+          className="rounded-circle mb-3 border border-success border-4 shadow"
         />
 
-        <div className="container d-flex flex-column align-items-center">
+        <div className="container d-flex flex-column align-items-center mt-4">
           <div className="toptext " style={appearStyleToptext}>
             <p className="montserrat-medium m-0 mb-2  fs-6">
               {Data.about.up}
@@ -68,11 +69,15 @@ export default function About() {
             <p class="m-0 fs-5">Product Manager</p>
           </div> */}
 
-          <div
-            class="container row row-cols-lg-5 g-2 fs-8 p-5 g-4 hobbies"
-            style={appearStyleHobbies}
-          >
-            {hobbies}
+          <div className="d-flex my-5 align-items-center flex-column flex-md-row">
+            <img src={boy_sit} alt="" width="300px" height="300px" />
+
+            <div
+              class="container row row-cols-xl-5 g-2 fs-8 p-5 g-4 hobbies"
+              style={appearStyleHobbies}
+            >
+              {hobbies}
+            </div>
           </div>
         </div>
       </div>
