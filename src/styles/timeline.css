@@ -91,6 +91,10 @@
   right: 20px;
 }
 
+.checkpoint:nth-child(even) .date {
+  left: 20px;
+}
+
 .checkpoint .circle {
   width: 25px;
   height: 25px;
@@ -143,7 +147,12 @@
   }
 
   .checkpoint:nth-child(odd) .date {
-    left: 20px;
+    left: 10px;
+    width: fit-content;
+  }  
+  
+  .checkpoint:nth-child(even) .date {
+    left: 10px;
     width: fit-content;
   }
 

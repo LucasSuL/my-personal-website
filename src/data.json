@@ -69,21 +69,24 @@
       "description": "Skillful in Markdown and PowerPoint for effective and high quality presentation design."
     }
   ],
-  "experience": [ {
-    "company": "Don Dunstan Foundation",
-    "position": "Graduate Designer Volunteer",
-    "website": "https://www.dunstan.org.au/",
-    "startDate": "2024-03-10",
-    "endDate": "2024-05-10",
-    "summary": "Collaborated with the Don Dunstan Foundation to organize, compile, and format the 2023 Annual Report. Worked closely with clients to understand and translate design requirements into creative and impactful visual solutions."
-  },
+  "experience": [
+    {
+      "company": "Don Dunstan Foundation",
+      "position": "Graduate Designer Volunteer",
+      "website": "https://www.dunstan.org.au/",
+      "startDate": "2024-03-10",
+      "endDate": "2024-05-10",
+      "summary": "Collaborated with the Don Dunstan Foundation to organize, compile, and format the 2023 Annual Report.",
+      "detail": "Worked closely with clients to understand and translate design requirements into creative and impactful visual solutions."
+    },
     {
       "company": "The University of Adelaide",
       "position": "Master of Computing and Innovation",
       "website": "https://www.adelaide.edu.au/degree-finder/mcomi_mcompinnov.html",
       "startDate": "2022-07-24",
       "endDate": "2024-07-10",
-      "summary": "I have maintained a weighted average mark(WAM) of 91/100 (GPA 6.75/7.0) across all my non-business courses, covering various algorithmic courses, operating systems, artificial intelligence, and others. My WAM for all completed courses stands at 87/100 (GPA 6.5/7.0)"
+      "summary": "GPA: 6.5/7.0 (WAM: 87/100), GPA for all computer science-related courses: 6.75 (WAM: 91). Awarded 30% Global Citizen Scholarship (highest standard). Team-lead in multiple course-based projects.",
+       "detail": "Highlighted courses: Artificial Intelligence, Mining Big Data, Algorithms and Data Structure Analysis, Specialised Programming (puzzle-solving), Operation System, Computer Networks & Applications."
     },
     {
       "company": "Atkins",
@@ -91,7 +94,8 @@
       "website": "https://www.atkinsrealis.com/",
       "startDate": "2016-07-14",
       "endDate": "2022-07-10",
-      "summary": "With over 6 years of experience in leading urban planning projects, I have actively contributed to 20+ large-scale urban development and consultancy initiatives. In addition to technical responsibilities, I have taken on a role in project management, overseeing tasks such as coordinating team members, conducting initial financial plan, and managing communication across various levels."
+      "summary": "With over 6 years of experience in leading urban planning projects, I have actively contributed to 20+ large-scale urban development and consultancy initiatives. In addition to technical responsibilities, I have taken on a role in project management, overseeing tasks such as coordinating team members, conducting initial financial plan, and managing communication across various levels.",
+      "detail": "As the youngest Project Manager, I led and delivered a headquarters planning and consulting project for a Global Fortune 500 insurance company, earning the client's praise. One of my another project achieved the highest profit margin of the year, reaching an impressive 45%."
     },
     {
       "company": "Atkins",
@@ -99,7 +103,8 @@
       "website": "https://www.atkinsrealis.com/",
       "startDate": "2015-11-14",
       "endDate": "2016-02-10",
-      "summary": "Contributed as a key member of the planning team involved in securing a project, won against Surbana Jurong Group and Boston Consulting Group (BCG)."
+      "summary": "Contributed as a key member of the planning team involved in securing a project. Responsible for urban planning technical tasks within an industry planning consulting project.",
+      "detail": "Our team ultimately triumphed over competitors from Surbana Jurong Group and Boston Consulting Group (BCG)."
     },
     {
       "company": "Beijing University of Civil Engineering and Architecture",
@@ -107,7 +112,8 @@
       "website": "https://english.bucea.edu.cn/",
       "startDate": "2011-09-01",
       "endDate": "2016-07-01",
-      "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and its surrounding disciplines. Average grade: 86/100"
+      "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and its surrounding disciplines. Average grade: 86/100.",
+        "detail": "Achievements: TOTO Environmental Fund Winner, Cadre of Youth Volunteer Association Member, Committee Member in Charge of Studies, Excellence Award for Beijing Historic District Research 2013, Team lead in multiple study and research projects."
     }
   ]
 }

@@ -19,7 +19,7 @@ export default function Experience() {
   });
 
   const experienceCard = Data.experience.map((value, index) => {
-    return <ExperienceCard key={index} {...value} />;
+    return <ExperienceCard key={index}id={index} {...value} />;
   });
 
   return (
