@@ -3,12 +3,12 @@ import React from "react";
 export default function HobbyBadge({ name, icon }) {
   return (
     <div className="col">
-      <div class="d-flex justify-content-center" style={{ height: "25px" }}>
-        <div class="d-flex align-items-center justify-content-center bg-dark bg-opacity-50 rounded-start-3 px-2 text-nowrap shadow-sm h-100 justify-content-center">
+      <div class="d-flex justify-content-center" style={{ height: "30px" }}>
+        <div class="d-flex align-items-center justify-content-center bg-dark text-light montserrat-bold text-uppercase  rounded-start-3 px-3 text-nowrap shadow-sm h-100 justify-content-center">
           {name}
         </div>
-        <div class="d-flex text-bg-light rounded-end-3 shadow-sm h-100">
-          <i class={`fa-solid fs-7 ${icon} px-2 align-self-center`}></i>
+        <div class="d-flex text-bg-success rounded-end-3 shadow-sm h-150 border">
+          <i class={`fa-solid fs-5 ${icon} px-2 align-self-center`}></i>
         </div>
       </div>
     </div>

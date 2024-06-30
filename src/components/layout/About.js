@@ -10,7 +10,7 @@ export default function About() {
     id: "about",
     name: "toptext",
   });
-  const appearStyleGoal = useScrollAppearEffect({ id: "about", name: "goal" });
+  // const appearStyleGoal = useScrollAppearEffect({ id: "about", name: "goal" });
   const appearStyleHobbies = useScrollAppearEffect({
     id: "about",
     name: "hobbies",
@@ -21,31 +21,31 @@ export default function About() {
   });
 
   return (
-    <section class="container-fluid bg-success p-0" id="about">
+    <section class="container-fluid bg-light p-0" id="about">
       <div
-        class="container d-flex flex-column align-items-center text-light "
-        style={{ maxWidth: "1200px" }}
+        class="container d-flex flex-column align-items-center"
+        style={{ maxWidth: "1200px" , color:"#092B47"}}
       >
         <img
           width="180px"
           height="180px"
           src={portrait}
           alt="Lucas Su"
-          class="rounded-circle my-3 border border-success-subtle border-4 shadow"
+          className="rounded-circle my-3 border border-success-subtle border-4 shadow"
         />
 
-        <div class="container d-flex flex-column align-items-center">
-          <div className="toptext" style={appearStyleToptext}>
-            <h3 class="fw-bold mb-3 text-center">{Data.about.hello}</h3>
-            <p class="fw-light fs-5 m-0 mb-2">
+        <div className="container d-flex flex-column align-items-center">
+          <div className="toptext " style={appearStyleToptext}>
+            <h2 className="montserrat-bold mb-3 text-center text-uppercase">{Data.about.hello}</h2>
+            <p className="montserrat-medium m-0 mb-2  fs-6">
               {Data.about.up}
               <span>
                 {" "}
-                (Visit the
+                (Visit the{" "}
                 <span>
                   <a
                     href="#downloads"
-                    class="text-light ms-1 fw-normal link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
+                    className="text-decoration-none"
                   >
                     Downloads
                   </a>
@@ -55,18 +55,18 @@ export default function About() {
               </span>
             </p>
 
-            <p class="fw-light fs-5 m-0">{Data.about.curr}</p>
+            <p class="montserrat-medium m-0 fs-6">{Data.about.curr}</p>
           </div>
 
-          <div
+          {/* <div
             class="fs-4 mt-5 d-flex flex-column align-items-center text-header goal"
             style={appearStyleGoal}
           >
-            <p class="fs-5 mb-3">My goal is to be:</p>
-            <p class="m-0">Front End Developer</p>
-            <p class="m-0">Full Stack Developer</p>
-            <p class="m-0">Product Manager</p>
-          </div>
+            <p class="fs-5 mb-3 montserrat-bold">My goal is to be:</p>
+            <p class="m-0 fs-5">Front End Developer</p>
+            <p class="m-0 fs-5">Full Stack Developer</p>
+            <p class="m-0 fs-5">Product Manager</p>
+          </div> */}
 
           <div
             class="container row row-cols-lg-5 g-2 fs-8 p-5 g-4 hobbies"

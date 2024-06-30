@@ -57,22 +57,22 @@ export default function Footer() {
   };
 
   return (
-    <div class="container-fluid text-bg-dark d-flex justify-content-center p-0">
+    <div class="container-fluid bg-cust text-light d-flex justify-content-center p-0">
       <div className="container " style={{ maxWidth: "1200px" }}>
         <footer class="col container py-5">
           <div class="row">
             <div class="col-6 col-sm-4 col-md-2 mb-3">
-              <h5>Nav-link</h5>
+              <h5 className="montserrat-sbold text-uppercase mb-5">Link</h5>
               <ul class="flex-column list-unstyled">
                 <li class="mb-2">
-                  <a href="#" class=" p-0 text-secondary text-decoration-none">
+                  <a href="#" class=" p-0  text-cust-light text-decoration-none">
                     Home
                   </a>
                 </li>
                 <li class="mb-2">
                   <a
                     href="#about"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     About me
                   </a>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="#skills"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     Skills
                   </a>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="#experience"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     Experience
                   </a>
@@ -96,7 +96,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="#articles"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     Articles
                   </a>
@@ -105,12 +105,12 @@ export default function Footer() {
             </div>
 
             <div class="col-6 col-sm-4 col-md-2 mb-3">
-              <h5>About</h5>
-              <ul class="flex-column list-unstyled">
+            <h5 className="montserrat-sbold text-uppercase mb-5">About</h5>
+            <ul class="flex-column list-unstyled">
                 <li class="mb-2">
                   <a
                     href="https://www.linkedin.com/in/lucassudev/"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -120,7 +120,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://github.com/LucasSuL"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -130,7 +130,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://dev.to/lucassul"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -140,7 +140,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://www.strava.com/athletes/84823175"
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -151,13 +151,13 @@ export default function Footer() {
             </div>
 
             <div class="col-sm-4 col-md-3 mb-3">
-              <h5 id="downloads">Downloads</h5>
-              <ul class="flex-column list-unstyled">
+            <h5 className="montserrat-sbold text-uppercase mb-5">Downloads</h5>
+            <ul class="flex-column list-unstyled">
                 <li class="mb-2">
                   <a
                     href={resume}
                     download
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     My Resume <i class="bi bi-download"></i>
                   </a>
@@ -166,7 +166,7 @@ export default function Footer() {
                   <a
                     href={transcript}
                     download
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     Graduate Transcript <i class="bi bi-download"></i>
                   </a>
@@ -175,7 +175,7 @@ export default function Footer() {
                   <a
                     href={portfolio}
                     download
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0 text-cust-light text-decoration-none"
                   >
                     Urban Planner Portfolio <i class="bi bi-download"></i>
                   </a>
@@ -184,7 +184,7 @@ export default function Footer() {
                   <a
                     href={pianoComposition}
                     download
-                    class="p-0 text-secondary text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none"
                   >
                     My Piano Composition <i class="bi bi-download"></i>
                   </a>
@@ -194,7 +194,7 @@ export default function Footer() {
 
             <div class="col-md-4 offset-md-1 mb-3">
               <form name="submit-to-google-sheet" onSubmit={submitHandler}>
-                <h5 class="mb-3">Leave a message</h5>
+                <h5 class="mb-3 montserrat-sbold text-uppercase">Leave a message</h5>
                 <div
                   class="d-flex flex-column w-100 gap-2"
                   style={{ maxWidth: "400px" }}
@@ -236,7 +236,7 @@ export default function Footer() {
                   </div>
                   {!isPending && (
                     <button
-                      class="btn btn-primary"
+                      class="btn btn-success"
                       data-bs-toggle={isFormSubmitted ? "modal" : ""}
                       data-bs-target={isFormSubmitted ? "#exampleModal" : ""}
                       type="submit"
@@ -245,7 +245,7 @@ export default function Footer() {
                     </button>
                   )}
                   {isPending && (
-                    <button disabled class="btn btn-primary" type="submit">
+                    <button disabled class="btn btn-success" type="submit">
                       Submitting...
                     </button>
                   )}

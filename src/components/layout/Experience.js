@@ -29,9 +29,9 @@ export default function Experience() {
       style={{ maxWidth: "1200px" }}
     >
       <div className="container ">
-        <h2 class="text-header" style={appearStyleTitle}>
-          Experience
-        </h2>
+        <h2 class="text-dark montserrat-bold text-uppercase text-center py-4 anime-1" style={appearStyleTitle}>
+            Experience
+          </h2>
         <div class="tm-main">
           <div className="tm-header mb-2" style={appearStyleExpHeader}>
             <span

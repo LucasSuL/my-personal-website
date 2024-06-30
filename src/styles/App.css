@@ -3,8 +3,52 @@ html {
   scroll-padding-top: var(--scroll-padding, 40px);
 }
 
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-sbold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.bg-cust{
+  background-color: #092B47;
+}
+
+.color-cust{
+  color: #092B47;
+}
+
+.text-cust-light{
+  color:#c7d3dc
+}
+
 .fs-0 {
   font-size: 3rem;
+}
+
+.fs-6{
+  font-size: 1.1rem !important
 }
 
 .fs-7 {
@@ -13,10 +57,6 @@ html {
 
 .fs-8 {
   font-size: 0.8rem;
-}
-
-.text-header {
-  font-family: "Red Hat Text", sans-serif;
 }
 
 .text-tight {
