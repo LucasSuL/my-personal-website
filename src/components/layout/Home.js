@@ -11,7 +11,7 @@ export default function Hero() {
 
   useEffect(() => {
     animateHome();
-    console.log(1111111111);
+    // console.log(1111111111);
   }, []);
 
   return (
@@ -31,14 +31,16 @@ export default function Hero() {
             // style={appearStyleHomeText}
           >
             <div class="row"></div>
-            <div class="row m-0 ">
-              <p>I'm a</p>
-              <h1 class="fw-bold text-header text-tight fs-0">
-                Graduate student who switched to{" "}
-                <span class="text-gold"> computer science.</span>
+            <div class="montserrat-medium row m-0 ">
+              <p className="fs-3">I'm</p>
+              <h1 class="montserrat-bold text-header text-tight fs-a m-0">
+                Lucas Su{" "}
               </h1>
-              <h3>Currently at</h3>
-              <p class="mt-3">Adelaide, Australia</p>
+              <h1 class="montserrat-bold text-header text-tight fs-a m-0">
+                A Full Stack Developer
+              </h1>
+              <h3 className="mt-3">Currently at</h3>
+              <p class="mt-2">Adelaide, Australia</p>
             </div>
             <div class="row mb-5">
               {" "}

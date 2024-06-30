@@ -24,6 +24,10 @@ html {
   font-style: normal;
 }
 
+.text-green{
+  color:#05a464
+}
+
 .montserrat-bold {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -42,7 +46,12 @@ html {
 .text-cust-light{
   color:#c7d3dc
 }
-
+.fs-b {
+  font-size: 5rem;
+}
+.fs-a {
+  font-size: 4rem;
+}
 .fs-0 {
   font-size: 3rem;
 }
@@ -63,9 +72,6 @@ html {
   letter-spacing: -0.03em;
 }
 
-/* .text-secondary-hover:hover{
-    opacity: 0.75;
-} */
  .bg-color{
   background: linear-gradient(
     to bottom right,
