@@ -62,10 +62,13 @@ export default function Articles() {
       style={{ maxWidth: "1200px" }}
     >
       <div className="container ">
-        <h2 class="text-header" style={appearStyleTitle}>
+        <h2
+          class="text-dark montserrat-bold text-uppercase text-center py-3 anime-1"
+          style={appearStyleTitle}
+        >
           Articles
         </h2>
-        <h3 class="fs-4" style={{ color: "#555", ...appearStyleTitle }}>
+        <h3 class="fs-4 m-0" style={{ color: "#555", ...appearStyleTitle }}>
           My latest articles
         </h3>
         <div

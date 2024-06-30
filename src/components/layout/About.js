@@ -24,29 +24,29 @@ export default function About() {
     <section class="container-fluid bg-light p-0" id="about">
       <div
         class="container d-flex flex-column align-items-center"
-        style={{ maxWidth: "1200px" , color:"#092B47"}}
+        style={{ maxWidth: "1200px", color: "#092B47" }}
       >
+        <h2 className="montserrat-bold my-5 fs-1 text-center text-uppercase">
+          {Data.about.hello}
+        </h2>
+
         <img
           width="180px"
           height="180px"
           src={portrait}
           alt="Lucas Su"
-          className="rounded-circle my-3 border border-success-subtle border-4 shadow"
+          className="rounded-circle mb-3 border border-success-subtle border-4 shadow"
         />
 
         <div className="container d-flex flex-column align-items-center">
           <div className="toptext " style={appearStyleToptext}>
-            <h2 className="montserrat-bold mb-3 text-center text-uppercase">{Data.about.hello}</h2>
             <p className="montserrat-medium m-0 mb-2  fs-6">
               {Data.about.up}
               <span>
                 {" "}
                 (Visit the{" "}
                 <span>
-                  <a
-                    href="#downloads"
-                    className="text-decoration-none"
-                  >
+                  <a href="#downloads" className="text-decoration-none">
                     Downloads
                   </a>
                 </span>{" "}

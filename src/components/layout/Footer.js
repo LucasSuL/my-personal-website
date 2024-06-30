@@ -57,7 +57,7 @@ export default function Footer() {
   };
 
   return (
-    <div class="container-fluid bg-cust text-light d-flex justify-content-center p-0">
+    <div class="container-fluid bg-cust text-light d-flex justify-content-center p-0 mt-5">
       <div className="container " style={{ maxWidth: "1200px" }}>
         <footer class="col container py-5">
           <div class="row">
@@ -194,7 +194,7 @@ export default function Footer() {
 
             <div class="col-md-4 offset-md-1 mb-3">
               <form name="submit-to-google-sheet" onSubmit={submitHandler}>
-                <h5 class="mb-3 montserrat-sbold text-uppercase">Leave a message</h5>
+                <h5 class="mb-3 montserrat-sbold text-uppercase">get in touch</h5>
                 <div
                   class="d-flex flex-column w-100 gap-2"
                   style={{ maxWidth: "400px" }}
@@ -288,93 +288,22 @@ export default function Footer() {
             </div>
           </div>
 
-          <div class="d-flex flex-column text-center pt-4 mt-4 border-top border-secondary">
+          <div class="pt-4 mt-4 montserrat-medium text-cust-light">
             <p>
               Built at <i class="fas fa-moon" /> by{" "}
               <a
                 href="https://github.com/LucasSuL/my-personal-website"
                 target="_blank"
                 rel="noreferrer"
-                class="text-decoration-none text-light fw-bold text-header"
+                class="text-decoration-none fw-bold text-header text-cust-light"
               >
                 Lucas Su
               </a>
             </p>
-            <div class="d-flex justify-content-center align-items-center mb-4 ">
-              <span class=" text-secondary text-s-2">Made with</span>
-              <a
-                href="https://getbootstrap.com/"
-                target="_blank"
-                rel="noreferrer"
-                class="cust-foot"
-              >
-                <span>
-                  <i class="fa-brands fa-bootstrap fa-2xl ms-2 text-white fs-3"></i>
-                </span>
-              </a>
-            </div>
           </div>
         </footer>
       </div>
     </div>
-    // <div>
-    //     <form name="submit-to-google-sheet" onSubmit={submitHandler}>
-    //         <h5 class="mb-2">Leave a message</h5>
-    //         <div class="d-flex flex-column w-100 gap-2" style={{ maxWidth: "400px" }}>
-    //             <div class="mb-2">
-    //                 <label for="exampleFormControlInput1" class="form-label visually-hidden">Email address</label>
-    //                 <input required
-    //                     type="email"
-    //                     class="form-control"
-    //                     name="Email"
-    //                     value={email}
-    //                     onChange={(e) => setEmail(e.target.value)}
-    //                     id="exampleFormControlInput1"
-    //                     placeholder="Email address" />
-    //             </div>
-    //             <div class="mb-2">
-    //                 <label for="exampleFormControlTextarea1" class="form-label visually-hidden" >Example textarea</label>
-    //                 <textarea required
-    //                     class="form-control"
-    //                     name="Message"
-    //                     value={msg}
-    //                     onChange={(e) => setMsg(e.target.value)}
-    //                     id="exampleFormControlTextarea1"
-    //                     rows="3" ></textarea>
-    //             </div>
-    //             {!isPending &&
-    //                 <button
-    //                     class="btn btn-primary"
-    //                     data-bs-toggle={isFormSubmitted ? 'modal' : ''}
-    //                     data-bs-target={isFormSubmitted ? '#exampleModal' : ''}
-    //                     type="submit">Submit
-    //                 </button>}
-    //             {isPending && <button disabled
-    //                 class="btn btn-primary"
-    //                 type="submit">Submitting...
-    //             </button>}
-    //         </div>
-    //     </form>
-    //     {console.log('modal.render = ' + isFormSubmitted)}
-    //     <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    //         <div class="modal-dialog modal-dialog-centered">
-    //             <div class="modal-content">
-    //                 <div class="modal-header">
-    //                     <h1 class="modal-title fs-5" id="exampleModalLabel">{modalMessage.head}</h1>
-    //                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-    //                 </div>
-    //                 <div class="modal-body">{modalMessage.body}</div>
-    //                 <div class="modal-footer">
-    //                     <button
-    //                         type="button"
-    //                         class="btn btn-secondary"
-    //                         data-bs-dismiss="modal"
-    //                         onClick={closeModal}
-    //                     >Close</button>
-    //                 </div>
-    //             </div>
-    //         </div>
-    //     </div>
-    // </div>
+
   );
 }

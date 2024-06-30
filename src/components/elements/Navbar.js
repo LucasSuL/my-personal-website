@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav
       class={`navbar ${
-        isTransparent ? "" : "bg-dark"
+        isTransparent ? "" : "bg-cust border-primary-subtle border-bottom"
       } fixed-top navbar-expand-lg p-2`}
       data-bs-theme="dark"
     >
