@@ -69,7 +69,14 @@
       "description": "Skillful in Markdown and PowerPoint for effective and high quality presentation design."
     }
   ],
-  "experience": [
+  "experience": [ {
+    "company": "Don Dunstan Foundation",
+    "position": "Graduate Designer Volunteer",
+    "website": "https://www.dunstan.org.au/",
+    "startDate": "2024-03-10",
+    "endDate": "2024-05-10",
+    "summary": "Collaborated with the Don Dunstan Foundation to organize, compile, and format the 2023 Annual Report. Worked closely with clients to understand and translate design requirements into creative and impactful visual solutions."
+  },
     {
       "company": "The University of Adelaide",
       "position": "Master of Computing and Innovation",
