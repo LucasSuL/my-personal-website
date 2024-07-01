@@ -6,12 +6,14 @@ import Experience from "./components/layout/Experience";
 import Articles from "./components/layout/Articles";
 import Footer from "./components/layout/Footer";
 import "./styles/App.css";
+import Project from "./components/layout/Project";
 
 function App() {
   return (
     <div className="App">
       <Home />
       <About />
+      <Project />
       <Skills />
       <Experience />
       <Articles />
