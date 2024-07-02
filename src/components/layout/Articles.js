@@ -68,7 +68,7 @@ export default function Articles() {
         >
           Articles
         </h2>
-        <h3 class="fs-4 m-0" style={{ color: "#555", ...appearStyleTitle }}>
+        <h3 class="fs-5 m-0" style={{ color: "#555", ...appearStyleTitle }}>
           My latest articles
         </h3>
         <div

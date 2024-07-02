@@ -65,14 +65,14 @@ export default function Footer() {
               <h5 className="montserrat-sbold text-uppercase mb-5">Link</h5>
               <ul class="flex-column list-unstyled">
                 <li class="mb-2">
-                  <a href="#" class=" p-0  text-cust-light text-decoration-none">
+                  <a href="#" class=" p-0  text-cust-light text-decoration-none fs-7">
                     Home
                   </a>
                 </li>
                 <li class="mb-2">
                   <a
                     href="#about"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     About me
                   </a>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="#skills"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     Skills
                   </a>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="#experience"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     Experience
                   </a>
@@ -96,7 +96,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="#articles"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     Articles
                   </a>
@@ -110,7 +110,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://www.linkedin.com/in/lucassudev/"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -120,7 +120,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://github.com/LucasSuL"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -130,7 +130,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://dev.to/lucassul"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -140,7 +140,7 @@ export default function Footer() {
                 <li class="mb-2">
                   <a
                     href="https://www.strava.com/athletes/84823175"
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -157,7 +157,7 @@ export default function Footer() {
                   <a
                     href={resume}
                     download
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     My Resume <i class="bi bi-download"></i>
                   </a>
@@ -166,7 +166,7 @@ export default function Footer() {
                   <a
                     href={transcript}
                     download
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     Graduate Transcript <i class="bi bi-download"></i>
                   </a>
@@ -175,7 +175,7 @@ export default function Footer() {
                   <a
                     href={portfolio}
                     download
-                    class="p-0 text-cust-light text-decoration-none"
+                    class="p-0 text-cust-light text-decoration-none fs-7"
                   >
                     Urban Planner Portfolio <i class="bi bi-download"></i>
                   </a>
@@ -184,7 +184,7 @@ export default function Footer() {
                   <a
                     href={pianoComposition}
                     download
-                    class="p-0  text-cust-light text-decoration-none"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     My Piano Composition <i class="bi bi-download"></i>
                   </a>
