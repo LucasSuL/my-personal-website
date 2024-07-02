@@ -57,7 +57,7 @@ const Project = () => {
                 sales data on the dashboard.
               </p>
               <a
-                href="https://lucassul.github.io/ai-lexicon-community/"
+                href="https://casecobra-lucassu.vercel.app/"
                 class="p-0 text-secondary fs-7 link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
                 target="_blank"
                 rel="noreferrer"
@@ -81,7 +81,7 @@ const Project = () => {
                 validation, content sorting, and site search functionalities.
               </p>
               <a
-                href="https://casecobra-lucassu.vercel.app/"
+                href="https://lucassul.github.io/ai-lexicon-community/"
                 class="p-0 text-secondary fs-7 link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
                 target="_blank"
                 rel="noreferrer"
