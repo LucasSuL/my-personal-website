@@ -24,8 +24,8 @@ html {
   font-style: normal;
 }
 
-.text-green{
-  color:#05a464
+.text-green {
+  color: #05a464;
 }
 
 .montserrat-bold {
@@ -35,16 +35,16 @@ html {
   font-style: normal;
 }
 
-.bg-cust{
-  background-color: #092B47;
+.bg-cust {
+  background-color: #092b47;
 }
 
-.color-cust{
-  color: #092B47;
+.color-cust {
+  color: #092b47;
 }
 
-.text-cust-light{
-  color:#c7d3dc
+.text-cust-light {
+  color: #c7d3dc;
 }
 .fs-b {
   font-size: 5rem;
@@ -56,8 +56,8 @@ html {
   font-size: 3rem;
 }
 
-.fs-6{
-  font-size: 1.1rem !important
+.fs-6 {
+  font-size: 1.1rem !important;
 }
 
 .fs-7 {
@@ -72,14 +72,25 @@ html {
   letter-spacing: -0.03em;
 }
 
- .bg-color{
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+.w-40 {
+  width: 40%;
+}
+
+.bg-color {
   background: linear-gradient(
     to bottom right,
     rgba(214, 228, 255, 0.5),
     rgba(255, 255, 255, 0.5),
     rgba(167, 243, 240, 0.5)
   );
- }
+}
 
 .clamp-two-lines {
   display: -webkit-box;
@@ -111,7 +122,5 @@ html {
 }
 
 .custom-shape-divider-bottom-1719732010 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
-
-
