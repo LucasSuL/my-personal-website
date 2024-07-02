@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-personal-website/static/css/main.91c83066.css",
-    "main.js": "/my-personal-website/static/js/main.4dd1823f.js",
+    "main.css": "/my-personal-website/static/css/main.7004ed51.css",
+    "main.js": "/my-personal-website/static/js/main.1c198e3d.js",
     "static/media/Portfolio_Su Lijie 2022.2_compressed.pdf": "/my-personal-website/static/media/Portfolio_Su Lijie 2022.2_compressed.0f6c31e8b018968d958e.pdf",
     "static/media/Starry Night.pdf": "/my-personal-website/static/media/Starry Night.4538c52523ee5b671b8c.pdf",
     "static/media/cover10.JPG": "/my-personal-website/static/media/cover10.acd4ed64290d0c6350c4.JPG",
@@ -21,11 +21,11 @@
     "static/media/afb-logo.png": "/my-personal-website/static/media/afb-logo.dc0986394bca7a3e87fc.png",
     "static/media/Lucas Su Transcript Jan 2024.pdf": "/my-personal-website/static/media/Lucas Su Transcript Jan 2024.0f2f572919c4adf80ee1.pdf",
     "index.html": "/my-personal-website/index.html",
-    "main.91c83066.css.map": "/my-personal-website/static/css/main.91c83066.css.map",
-    "main.4dd1823f.js.map": "/my-personal-website/static/js/main.4dd1823f.js.map"
+    "main.7004ed51.css.map": "/my-personal-website/static/css/main.7004ed51.css.map",
+    "main.1c198e3d.js.map": "/my-personal-website/static/js/main.1c198e3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.91c83066.css",
-    "static/js/main.4dd1823f.js"
+    "static/css/main.7004ed51.css",
+    "static/js/main.1c198e3d.js"
   ]
 }
