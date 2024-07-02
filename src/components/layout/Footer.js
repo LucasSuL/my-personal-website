@@ -79,7 +79,7 @@ export default function Footer() {
                 </li>
                 <li class="mb-2">
                   <a
-                    href="#about"
+                    href="#projects"
                     class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     Projects
