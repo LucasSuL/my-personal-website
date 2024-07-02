@@ -103,6 +103,9 @@ html {
   .text-tight {
     letter-spacing: -0.05em;
   }
+  .fs-a {
+    font-size: 2.5rem;
+  }
 }
 
 .custom-shape-divider-bottom-1719732010 {

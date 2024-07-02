@@ -2,7 +2,7 @@
   background-image: url(../assets/images/cover10.JPG);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .cust-hero-body {
