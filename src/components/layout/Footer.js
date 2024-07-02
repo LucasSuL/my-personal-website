@@ -296,11 +296,11 @@ export default function Footer() {
             </div>
           </div>
 
-          <div class="pt-4 mt-4 montserrat-medium text-cust-light">
+          <div class="pt-4 mt-4 text-cust-light">
             <p>
               Built at <i class="fas fa-moon" /> by{" "}
               <a
-                href="https://github.com/LucasSuL/my-personal-website"
+                href="https://www.linkedin.com/in/lucassudev/"
                 target="_blank"
                 rel="noreferrer"
                 class="text-decoration-none fw-bold text-header text-cust-light"

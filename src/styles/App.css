@@ -124,3 +124,43 @@ html {
 .custom-shape-divider-bottom-1719732010 .shape-fill {
   fill: #ffffff;
 }
+
+.bg-1 {
+  position: absolute;
+  top: 20px;
+  left: 380px;
+  width: 50%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+  scale: 50%;
+}
+.bg-2 {
+  position: absolute;
+  top: 400px;
+  left: -300px;
+  width: 50%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+.bg-3 {
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  width: 50%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+}
+.bg-4 {
+  position: absolute;
+  top: 1000px;
+  left: 800px;
+  width: 50%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+  scale: 50%;
+
+}
