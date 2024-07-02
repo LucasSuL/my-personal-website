@@ -31,7 +31,7 @@ export default function Hero() {
             // style={appearStyleHomeText}
           >
             <div class="row"></div>
-            <div class="montserrat-medium row m-0 ">
+            <div class="montserrat-medium row m-0 cust-hero-text">
               <p className="fs-3">I'm</p>
               <h1 class="montserrat-bold text-header text-tight fs-a m-0">
                 Lucas Su{" "}

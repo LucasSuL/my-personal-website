@@ -13,7 +13,7 @@ export const useEnlargeBackImg = () => {
         ? width * (1 + scrollPosition / 2000) + "px"
         : height * (1 + scrollPosition / 2000) + "px";
 
-    document.querySelector(".cust-hero-body").style.opacity = `${
+    document.querySelector(".cust-hero-text").style.opacity = `${
       (-window.scrollY + 300) * 0.004
     }`;
     document.querySelector(".cust-hero-badge").style.opacity = `${
