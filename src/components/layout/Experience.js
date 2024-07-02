@@ -3,10 +3,10 @@ import Data from "../../data.json";
 import ExperienceCard from "../elements/ExperienceCard";
 import "../../styles/timeline.css";
 import useScrollAppearEffect from "../../assets/js/useScrollAppearEffect";
-import bg_1 from "../../assets/images/bg-1.png"
-import bg_2 from "../../assets/images/bg-2.png"
-import bg_3 from "../../assets/images/bg-3.png"
-import bg_4 from "../../assets/images/bg-4.png"
+import bg_1 from "../../assets/images/bg-1.png";
+import bg_2 from "../../assets/images/bg-2.png";
+import bg_3 from "../../assets/images/bg-3.png";
+import bg_4 from "../../assets/images/bg-4.png";
 
 export default function Experience() {
   const appearStyleTitle = useScrollAppearEffect({
@@ -23,7 +23,7 @@ export default function Experience() {
   });
 
   const experienceCard = Data.experience.map((value, index) => {
-    return <ExperienceCard key={index}id={index} {...value} />;
+    return <ExperienceCard key={index} id={index} {...value} />;
   });
 
   return (
@@ -33,9 +33,12 @@ export default function Experience() {
       style={{ maxWidth: "1200px" }}
     >
       <div className="container ">
-        <h2 class="text-dark montserrat-bold text-uppercase text-center py-4 anime-1" style={appearStyleTitle}>
-            Experience
-          </h2>
+        <h2
+          class="text-dark montserrat-bold text-uppercase text-center py-4 anime-1"
+          style={appearStyleTitle}
+        >
+          Experience
+        </h2>
         <div class="tm-main">
           <div className="tm-header mb-2" style={appearStyleExpHeader}>
             <span
@@ -50,17 +53,19 @@ export default function Experience() {
           </div>
         </div>
       </div>
-      <div className="bg-1">
-        <img src={bg_1} alt="" />
-      </div>
-      <div className="bg-2">
-        <img src={bg_2} alt="" />
-      </div>
-      <div className="bg-3">
-        <img src={bg_3} alt="" />
-      </div>
-      <div className="bg-4">
-        <img src={bg_4} alt="" />
+      <div className="d-none d-sm-block">
+        <div className="bg-1">
+          <img src={bg_1} alt="" />
+        </div>
+        <div className="bg-2">
+          <img src={bg_2} alt="" />
+        </div>
+        <div className="bg-3">
+          <img src={bg_3} alt="" />
+        </div>
+        <div className="bg-4">
+          <img src={bg_4} alt="" />
+        </div>
       </div>
     </section>
   );

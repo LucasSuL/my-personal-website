@@ -40,10 +40,10 @@ export default function About() {
         />
 
         <div className="container d-flex flex-column align-items-center mt-4">
-          <div className="toptext " style={appearStyleToptext}>
+          <div className="toptext text-center" style={appearStyleToptext}>
             <p className="montserrat-medium m-0 mb-2  fs-6">
-              {Data.about.up}
-              <span>
+            During my six years as an urban planner for a leading design, engineering, and consulting firm. I often thought about how to use digital solutions to empower traditional businesses, so I turned to computer-related studies.
+              {/* <span>
                 {" "}
                 Visit the{" "}
                 <span>
@@ -53,10 +53,10 @@ export default function About() {
                 </span>{" "}
                 section if you are interested in my portfolio as an Urban
                 Planner.
-              </span>
+              </span> */}
             </p>
 
-            <p class="montserrat-medium m-0 fs-6">{Data.about.curr}</p>
+            <p class="montserrat-medium m-0 fs-6">As a <strong>developer</strong> and a former <strong>designer</strong>, I can bring together a variety of unique skills, visions and the abilities to make a positive impact on all of humanity.</p>
           </div>
 
           {/* <div

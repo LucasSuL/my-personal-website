@@ -1,8 +1,8 @@
 {
   "about": {
     "hello": "Hello there! I'm pleased you discovered my profile.",
-    "up": "Prior to obtaining my Master's degree, I spent six years as an urban planner for a leading design, engineering, and consulting firm. During this time, I was involved in over 20 projects and served as project manager for three of them. This experience enhanced my design skills and aesthetics, deepened my understanding of sustainable development, and demonstrated my continuous commitment to working in a dynamic, fast-paced, multi-disciplinary team environment.",
-    "curr": "Throughout my career, I often thought about how to use digital solutions to empower traditional businesses, so I turned to computer-related studies. As a developer and a former designer, I can bring together a variety of unique skills, visions and the abilities to make a positive impact on all of humanity."
+    "up": "",
+    "curr": ""
   },
 
   "hobbies": [
@@ -85,8 +85,8 @@
       "website": "https://www.adelaide.edu.au/degree-finder/mcomi_mcompinnov.html",
       "startDate": "2022-07-24",
       "endDate": "2024-07-10",
-      "summary": "GPA: 6.5/7.0 (WAM: 87/100), GPA for all computer science-related courses: 6.75 (WAM: 91). Awarded 30% Global Citizen Scholarship (highest standard). Team-lead in multiple course-based projects.",
-       "detail": "Highlighted courses: Artificial Intelligence, Mining Big Data, Algorithms and Data Structure Analysis, Specialised Programming (puzzle-solving), Operation System, Computer Networks & Applications."
+      "summary": "GPA: 6.5/7.0 (WAM: 87/100), GPA for all computer science-related courses: 6.75 (WAM: 91).",
+       "detail": "Awarded 30% Global Citizen Scholarship (highest standard). Team-lead in multiple course-based projects. Highlighted courses: Artificial Intelligence, Mining Big Data, Algorithms and Data Structure Analysis, Specialised Programming (puzzle-solving), Operation System, Computer Networks & Applications."
     },
     {
       "company": "Atkins",
@@ -94,8 +94,8 @@
       "website": "https://www.atkinsrealis.com/",
       "startDate": "2016-07-14",
       "endDate": "2022-07-10",
-      "summary": "With over 6 years of experience in leading urban planning projects, I have actively contributed to 20+ large-scale urban development and consultancy initiatives. In addition to technical responsibilities, I have taken on a role in project management, overseeing tasks such as coordinating team members, conducting initial financial plan, and managing communication across various levels.",
-      "detail": "As the youngest Project Manager, I led and delivered a headquarters planning and consulting project for a Global Fortune 500 insurance company, earning the client's praise. One of my another project achieved the highest profit margin of the year, reaching an impressive 45%."
+      "summary": "With over 6 years of experience in leading urban planning projects, I have actively contributed to 20+ large-scale urban development and consultancy initiatives.",
+      "detail": "In addition to technical responsibilities, I have taken on a role in project management, overseeing tasks such as coordinating team members, conducting initial financial plan, and managing communication across various levels. As the youngest Project Manager, I led and delivered a headquarters planning and consulting project for a Global Fortune 500 insurance company, earning the client's praise. One of my another project achieved the highest profit margin of the year, reaching an impressive 45%."
     },
     {
       "company": "Atkins",
