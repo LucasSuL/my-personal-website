@@ -66,7 +66,7 @@ export default function Footer() {
               <ul class="flex-column list-unstyled">
                 <li class="mb-2">
                   <a href="#" class=" p-0  text-cust-light text-decoration-none fs-7">
-                    Home
+                    Back to top
                   </a>
                 </li>
                 <li class="mb-2">
@@ -75,6 +75,14 @@ export default function Footer() {
                     class="p-0  text-cust-light text-decoration-none fs-7"
                   >
                     About me
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="#about"
+                    class="p-0  text-cust-light text-decoration-none fs-7"
+                  >
+                    Projects
                   </a>
                 </li>
                 <li class="mb-2">

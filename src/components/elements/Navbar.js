@@ -63,6 +63,11 @@ export default function Navbar() {
               </a>
             </li>
             <li class="nav-item ms-2">
+              <a class="nav-link" href="#projects">
+                Projects
+              </a>
+            </li>
+            <li class="nav-item ms-2">
               <a class="nav-link" href="#skills">
                 Skills
               </a>

@@ -51,10 +51,10 @@ const Project = () => {
               <img src={case_logo} alt="" className="img-fluid w-40 mb-3" />
 
               <p className="montserrat-light">
-                ALC is a platform where users can view, search, post, and vote
-                on AI terms and language-based translations. The platform
-                includes user authentication and a credit system, form
-                validation, content sorting, and site search functionalities.
+                CaseCobra is a shopping site integrating Stripe, designed for
+                customers to customise their phone cases by uploading images and
+                choosing from various colours and materials. Merchants can view
+                sales data on the dashboard.
               </p>
               <a
                 href="https://lucassul.github.io/ai-lexicon-community/"
@@ -75,10 +75,10 @@ const Project = () => {
               <img src={lexi_logo} alt="" className="img-fluid w-75 mb-3" />
 
               <p className="montserrat-light">
-                CaseCobra is a shopping site integrating Stripe, designed for
-                customers to customise their phone cases by uploading images and
-                choosing from various colours and materials. Merchants can view
-                sales data on the dashboard.
+                ALC is a platform where users can view, search, post, and vote
+                on AI terms and language-based translations. The platform
+                includes user authentication and a credit system, form
+                validation, content sorting, and site search functionalities.
               </p>
               <a
                 href="https://casecobra-lucassu.vercel.app/"
