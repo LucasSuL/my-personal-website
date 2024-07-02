@@ -72,7 +72,7 @@ export default function Articles() {
           My latest articles
         </h3>
         <div
-          class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 p-2 appear"
+          class="row row-cols-1 row-cols-sm-2 row-cols-lg-4  appear"
           style={appearStyleArticle}
         >
           {articleCard}

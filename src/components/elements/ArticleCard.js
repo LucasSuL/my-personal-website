@@ -2,18 +2,18 @@ import React from "react";
 
 export default function ArticleCard({ title, description, date, url, image }) {
   return (
-    <div class="col p-3">
+    <div class="col p-4">
       <div class="row card shadow-sm bg-body-tertiary rounded h-100">
         <div class="d-flex p-3">
           <a
-            class="col-10 align-self-center clamp-two-lines fw-bold text-header fs-5 lh-sm link-dark text-decoration-none"
+            class="col-9 align-self-center clamp-two-lines fw-bold text-header fs-5 lh-sm link-dark text-decoration-none"
             href={url}
             target="_blank"
             rel="noreferrer"
           >
             {title}
           </a>
-          <div class="col-2 align-self-center fs-6">
+          <div class="col-3 align-self-center fs-6">
             <i className="fab fa-2x fa-dev"></i>
           </div>
         </div>
