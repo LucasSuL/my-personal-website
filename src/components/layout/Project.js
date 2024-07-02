@@ -52,7 +52,7 @@ const Project = () => {
 
               <p className="montserrat-light">
                 CaseCobra is a shopping site integrating Stripe, designed for
-                customers to customise their phone cases by uploading images and
+                customers to customize their phone cases by uploading images and
                 choosing from various colours and materials. Merchants can view
                 sales data on the dashboard.
               </p>
