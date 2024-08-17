@@ -33,7 +33,7 @@ const Project = () => {
                 directly from their dashboard.
               </p>
               <a
-                href="https://lucassu-ai-form-builder.vercel.app/"
+                href="https://ai-form-builder-lucassu.vercel.app/"
                 class="p-0 text-secondary fs-7 link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover"
                 target="_blank"
                 rel="noreferrer"
