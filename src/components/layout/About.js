@@ -69,11 +69,11 @@ export default function About() {
             <p class="m-0 fs-5">Product Manager</p>
           </div> */}
 
-          <div className="d-flex my-5 align-items-center flex-column flex-md-row">
+          <div className="d-flex mt-4 align-items-center flex-column flex-md-row">
             <img src={boy_sit} alt="" width="300px" height="300px" />
 
             <div
-              class="container row row-cols-xl-5 g-2 fs-8 p-5 g-4 hobbies"
+              class="container row row-cols-xl-5 g-2 fs-8 g-4 hobbies"
               style={appearStyleHobbies}
             >
               {hobbies}

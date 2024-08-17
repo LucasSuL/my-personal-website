@@ -15,7 +15,7 @@ const Project = () => {
     >
       <div className="container" id="projects">
         <h2
-          class="text-dark montserrat-bold text-uppercase text-center py-4 anime-1"
+          class="text-dark montserrat-bold text-uppercase text-center py-1 anime-1"
           // style={appearStyleTitle}
         >
           Projects
