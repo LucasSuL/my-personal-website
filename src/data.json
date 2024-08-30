@@ -71,6 +71,24 @@
   ],
   "experience": [
     {
+      "company": "Solutions to Success",
+      "position": "SaaS Application Developer Intern",
+      "website": "https://www.s2s.services/",
+      "startDate": "2024-07-29",
+      "endDate": "2024-08-22",
+      "summary": "Design, develop, and customize Zoho applications to align with client requirements.",
+      "detail": "Using a variety of Zoho tools and technologies across all Zoho’s suite of products. Collaborate with clients to understand their business processes, objectives, and pain points, and provide expert guidance on how Zoho solutions can address their needs."
+    },
+    {
+      "company": "TableSpot",
+      "position": "Self-Employed",
+      "website": "https://bookings-mrpandaktichen.vercel.app/",
+      "startDate": "2024-05-15",
+      "endDate": "2024-08-22",
+      "summary": "Developed a web application for Mr. Panda Kitchen, a local restaurant, to streamline their booking and table management system.",
+      "detail": "Designed a user-friendly interface enabling managers to efficiently manage booking data and customer interactions."
+    },
+    {
       "company": "Don Dunstan Foundation",
       "position": "Graduate Designer Volunteer",
       "website": "https://www.dunstan.org.au/",
@@ -86,7 +104,7 @@
       "startDate": "2022-07-24",
       "endDate": "2024-07-10",
       "summary": "GPA: 6.5/7.0 (WAM: 87/100), GPA for all computer science-related courses: 6.75 (WAM: 91).",
-       "detail": "Awarded 30% Global Citizen Scholarship (highest standard). Team-lead in multiple course-based projects. Highlighted courses: Artificial Intelligence, Mining Big Data, Algorithms and Data Structure Analysis, Specialised Programming (puzzle-solving), Operation System, Computer Networks & Applications."
+      "detail": "Awarded 30% Global Citizen Scholarship (highest standard). Team-lead in multiple course-based projects. Highlighted courses: Artificial Intelligence, Mining Big Data, Algorithms and Data Structure Analysis, Specialised Programming (puzzle-solving), Operation System, Computer Networks & Applications."
     },
     {
       "company": "Atkins",
@@ -113,7 +131,7 @@
       "startDate": "2011-09-01",
       "endDate": "2016-07-01",
       "summary": "A robust five-year program designed to cultivate professionals in the fields of architecture, urban planning, and its surrounding disciplines. Average grade: 86/100.",
-        "detail": "Achievements: TOTO Environmental Fund Winner, Cadre of Youth Volunteer Association Member, Committee Member in Charge of Studies, Excellence Award for Beijing Historic District Research 2013, Team lead in multiple study and research projects."
+      "detail": "Achievements: TOTO Environmental Fund Winner, Cadre of Youth Volunteer Association Member, Committee Member in Charge of Studies, Excellence Award for Beijing Historic District Research 2013, Team lead in multiple study and research projects."
     }
   ]
 }

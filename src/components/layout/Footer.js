@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import resume from "../../assets/downloads/Lucas Su Resume.pdf";
-import transcript from "../../assets/downloads/Lucas Su Transcript Jan 2024.pdf";
-import portfolio from "../../assets/downloads/Portfolio_Su Lijie 2022.2_compressed.pdf";
+import transcript from "../../assets/downloads/Academic Transcript.pdf";
+import portfolio from "../../assets/downloads/Skillset Example.pdf";
 import pianoComposition from "../../assets/downloads/Starry Night.pdf";
 import "../../styles/footer.css";
 
@@ -167,7 +167,7 @@ export default function Footer() {
                     download
                     class="p-0  text-cust-light text-decoration-none fs-7"
                   >
-                    My Resume <i class="bi bi-download"></i>
+                    Resume <i class="bi bi-download"></i>
                   </a>
                 </li>
                 <li class="mb-2">
@@ -176,7 +176,7 @@ export default function Footer() {
                     download
                     class="p-0  text-cust-light text-decoration-none fs-7"
                   >
-                    Graduate Transcript <i class="bi bi-download"></i>
+                    Transcript <i class="bi bi-download"></i>
                   </a>
                 </li>
                 <li class="mb-2">
@@ -185,7 +185,7 @@ export default function Footer() {
                     download
                     class="p-0 text-cust-light text-decoration-none fs-7"
                   >
-                    Urban Planner Portfolio <i class="bi bi-download"></i>
+                    Skillset Example <i class="bi bi-download"></i>
                   </a>
                 </li>
                 <li class="mb-2">
@@ -194,7 +194,7 @@ export default function Footer() {
                     download
                     class="p-0  text-cust-light text-decoration-none fs-7"
                   >
-                    My Piano Composition <i class="bi bi-download"></i>
+                    Piano Composition <i class="bi bi-download"></i>
                   </a>
                 </li>
               </ul>

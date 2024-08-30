@@ -37,7 +37,7 @@ export default function Hero() {
                 Lucas Su{" "}
               </h1>
               <h1 class="montserrat-bold text-header text-tight fs-a m-0">
-                A Full Stack Developer
+                An Aspiring Front End Developer
               </h1>
               <h3 className="mt-3">Currently at</h3>
               <p class="mt-2">Adelaide, Australia</p>

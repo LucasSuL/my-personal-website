@@ -18,7 +18,7 @@ const Project = () => {
           class="text-dark montserrat-bold text-uppercase text-center py-1 anime-1"
           // style={appearStyleTitle}
         >
-          Projects
+          Web Projects
         </h2>
         <div>
           <div className=" align-items-center  row">

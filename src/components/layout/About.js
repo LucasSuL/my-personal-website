@@ -41,8 +41,11 @@ export default function About() {
 
         <div className="container d-flex flex-column align-items-center mt-4">
           <div className="toptext text-center" style={appearStyleToptext}>
-            <p className="montserrat-medium m-0 mb-2  fs-6">
-            During my six years as an urban planner for a leading design, engineering, and consulting firm. I often thought about how to use digital solutions to empower traditional businesses, so I turned to computer-related studies.
+            <p className="m-0 mb-2  fs-6">
+              I am a recent graduate with a Master of Computing and Innovation
+              from the <strong>University of Adelaide</strong> with full working
+              rights. I have experience in front-end development, data analysis,
+              and graphic design.{" "}
               {/* <span>
                 {" "}
                 Visit the{" "}
@@ -56,7 +59,14 @@ export default function About() {
               </span> */}
             </p>
 
-            <p class="montserrat-medium m-0 fs-6">As a <strong>developer</strong> and a former <strong>designer</strong>, I can bring together a variety of unique skills, visions and the abilities to make a positive impact on all of humanity.</p>
+            <p class="m-0 fs-6">
+              Before transitioning into the tech industry, I was an urban
+              planner. As a <strong>developer</strong> with a background in{" "}
+              <strong>design</strong>, I can bring together a variety of unique
+              skills, visions and the the ability to contribute to creating
+              richer, healthier, and smarter lifestyles for communities and
+              future generations.
+            </p>
           </div>
 
           {/* <div
