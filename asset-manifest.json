@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/my-personal-website/static/css/main.7004ed51.css",
-    "main.js": "/my-personal-website/static/js/main.bf41a902.js",
-    "static/media/Portfolio_Su Lijie 2022.2_compressed.pdf": "/my-personal-website/static/media/Portfolio_Su Lijie 2022.2_compressed.0f6c31e8b018968d958e.pdf",
+    "main.js": "/my-personal-website/static/js/main.489bdb11.js",
     "static/media/Starry Night.pdf": "/my-personal-website/static/media/Starry Night.4538c52523ee5b671b8c.pdf",
+    "static/media/Skillset Example.pdf": "/my-personal-website/static/media/Skillset Example.73be0603a929ad20126a.pdf",
+    "static/media/Academic Transcript.pdf": "/my-personal-website/static/media/Academic Transcript.0a9dd8d7afe7d70ba5fa.pdf",
     "static/media/cover10.JPG": "/my-personal-website/static/media/cover10.acd4ed64290d0c6350c4.JPG",
     "static/media/afb.png": "/my-personal-website/static/media/afb.da040192bc1051bb0444.png",
     "static/media/lexi.png": "/my-personal-website/static/media/lexi.e8d42b17fe0f6ac3ad03.png",
     "static/media/LucasSu.png": "/my-personal-website/static/media/LucasSu.f90738d30925b00eb6e2.png",
     "static/media/case.png": "/my-personal-website/static/media/case.79d38574d1b91a39664b.png",
-    "static/media/Lucas Su Resume.pdf": "/my-personal-website/static/media/Lucas Su Resume.e4206bc410886a76f885.pdf",
+    "static/media/Lucas Su Resume.pdf": "/my-personal-website/static/media/Lucas Su Resume.76b15cb2c210ea1990b1.pdf",
     "static/media/3d-casual-life-asian-man-holding-toy-heart.png": "/my-personal-website/static/media/3d-casual-life-asian-man-holding-toy-heart.699e6d4ccb1406636625.png",
     "static/media/bg-4.png": "/my-personal-website/static/media/bg-4.7a7ced52d91d7908e5fe.png",
     "static/media/3d-casual-life-young-smiling-man-points-with-fingers-to-right-side.png": "/my-personal-website/static/media/3d-casual-life-young-smiling-man-points-with-fingers-to-right-side.a3cc1a178b18a67e4f05.png",
@@ -19,13 +20,12 @@
     "static/media/lexi-logo.png": "/my-personal-website/static/media/lexi-logo.b788cac3eb47208e6c15.png",
     "static/media/case-logo.png": "/my-personal-website/static/media/case-logo.c2c41e2f27ed431ff48a.png",
     "static/media/afb-logo.png": "/my-personal-website/static/media/afb-logo.dc0986394bca7a3e87fc.png",
-    "static/media/Lucas Su Transcript Jan 2024.pdf": "/my-personal-website/static/media/Lucas Su Transcript Jan 2024.0f2f572919c4adf80ee1.pdf",
     "index.html": "/my-personal-website/index.html",
     "main.7004ed51.css.map": "/my-personal-website/static/css/main.7004ed51.css.map",
-    "main.bf41a902.js.map": "/my-personal-website/static/js/main.bf41a902.js.map"
+    "main.489bdb11.js.map": "/my-personal-website/static/js/main.489bdb11.js.map"
   },
   "entrypoints": [
     "static/css/main.7004ed51.css",
-    "static/js/main.bf41a902.js"
+    "static/js/main.489bdb11.js"
   ]
 }
