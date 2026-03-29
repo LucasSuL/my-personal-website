@@ -65,7 +65,10 @@ export default function Footer() {
               <h5 className="montserrat-sbold text-uppercase mb-5">Link</h5>
               <ul class="flex-column list-unstyled">
                 <li class="mb-2">
-                  <a href="#" class=" p-0  text-cust-light text-decoration-none fs-7">
+                  <a
+                    href="#"
+                    class=" p-0  text-cust-light text-decoration-none fs-7"
+                  >
                     Back to top
                   </a>
                 </li>
@@ -113,8 +116,8 @@ export default function Footer() {
             </div>
 
             <div class="col-6 col-sm-4 col-md-2 mb-3">
-            <h5 className="montserrat-sbold text-uppercase mb-5">About</h5>
-            <ul class="flex-column list-unstyled">
+              <h5 className="montserrat-sbold text-uppercase mb-5">About</h5>
+              <ul class="flex-column list-unstyled">
                 <li class="mb-2">
                   <a
                     href="https://www.linkedin.com/in/lucassudev/"
@@ -159,8 +162,10 @@ export default function Footer() {
             </div>
 
             <div class="col-sm-4 col-md-3 mb-3">
-            <h5 className="montserrat-sbold text-uppercase mb-5">Downloads</h5>
-            <ul class="flex-column list-unstyled">
+              {/* <h5 className="montserrat-sbold text-uppercase mb-5">
+                Downloads
+              </h5>
+              <ul class="flex-column list-unstyled">
                 <li class="mb-2">
                   <a
                     href={resume}
@@ -197,12 +202,14 @@ export default function Footer() {
                     Piano Composition <i class="bi bi-download"></i>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
 
             <div class="col-md-4 offset-md-1 mb-3">
               <form name="submit-to-google-sheet" onSubmit={submitHandler}>
-                <h5 class="mb-3 montserrat-sbold text-uppercase">get in touch</h5>
+                <h5 class="mb-3 montserrat-sbold text-uppercase">
+                  get in touch
+                </h5>
                 <div
                   class="d-flex flex-column w-100 gap-2"
                   style={{ maxWidth: "400px" }}
@@ -312,6 +319,5 @@ export default function Footer() {
         </footer>
       </div>
     </div>
-
   );
 }

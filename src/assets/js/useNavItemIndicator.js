@@ -42,7 +42,7 @@ export const useNavItemIndicator = () => {
               innerLink.classList.remove("active");
             });
 
-            navLinks[index].classList.add("active");
+            if (navLinks[index]) navLinks[index].classList.add("active");
           }
         });
       }

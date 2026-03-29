@@ -4,7 +4,6 @@
     "up": "",
     "curr": ""
   },
-
   "hobbies": [
     {
       "name": "Cycling",
@@ -29,24 +28,14 @@
   ],
   "skills": [
     {
-      "name": "Front-End Development",
-      "icon": "fa-brands fa-react",
-      "description": "Proficient in utilizing framework like React and Bootstrap to develop high-quality, responsive webpages. Experience with Typescript to ensure robust development."
+      "name": "Full-Stack Development",
+      "icon": "fa-solid fa-layer-group",
+      "description": "Proficient in React, Tailwind, and TypeScript for responsive frontends. Skilled in Node.js and PostgreSQL for backend APIs and services."
     },
     {
-      "name": "Back-End Development",
-      "icon": "fa-brands fa-node",
-      "description": "Skilled in Node.js, Express.js, PostgreSQL (including Supabase) and MySQL. Capable of building RESTful APIs and conducting testing using Postman."
-    },
-    {
-      "name": "Agile Development",
-      "icon": "fas fa-rocket",
-      "description": "Familiar with and recognise Agile development and Scrum methodologies."
-    },
-    {
-      "name": "Version Control",
-      "icon": "fa-solid fa-code-branch",
-      "description": "Experienced in using Git and GitHub for collaboration and version control."
+      "name": "Cloud & DevOps",
+      "icon": "fa-brands fa-aws",
+      "description": "Hands-on experience with AWS services including EC2, S3, and RDS for hosting, storage, and managed databases. Familiar with cloud-native operations and CI/CD workflows using Git and GitHub."
     },
     {
       "name": "Engineering Drawing",
@@ -70,6 +59,15 @@
     }
   ],
   "experience": [
+    {
+      "company": "Department for Infrastructure and Transport",
+      "position": "Graduate Software Developer",
+      "website": "https://dit.sa.gov.au/",
+      "startDate": "2025-02-10",
+      "endDate": "current",
+      "summary": "Collaborate with the team to ensure stable, scalable, and high-performing GIS solutions across on-premise and cloud environments.",
+      "detail": "Develop and maintain full-stack applications, including frontend components using React.js and backend APIs/services. Manage and maintain databases (primarily PostgreSQL) and support web map service deployment in ArcGIS Enterprise. Participate in cloud migration and cloud-native operations using AWS services such as EC2, S3, and RDS for hosting data and applications."
+    },
     {
       "company": "Solutions to Success",
       "position": "SaaS Application Developer Intern",
