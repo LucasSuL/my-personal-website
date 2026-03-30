@@ -29,7 +29,7 @@
   "skills": [
     {
       "name": "Full-Stack Development",
-      "icon": "fa-solid fa-layer-group",
+      "icon": "fa-solid fa-code",
       "description": "Proficient in React, Tailwind, and TypeScript for responsive frontends. Skilled in Node.js and PostgreSQL for backend APIs and services."
     },
     {
