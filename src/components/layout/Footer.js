@@ -1,8 +1,4 @@
 import { React, useState } from "react";
-import resume from "../../assets/downloads/Lucas Su Resume.pdf";
-import transcript from "../../assets/downloads/Academic Transcript.pdf";
-import portfolio from "../../assets/downloads/Skillset Example.pdf";
-import pianoComposition from "../../assets/downloads/Starry Night.pdf";
 import "../../styles/footer.css";
 
 export default function Footer() {
